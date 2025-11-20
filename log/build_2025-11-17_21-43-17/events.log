@@ -1,0 +1,104 @@
+[0.000000] (-) TimerEvent: {}
+[0.000872] (-) JobUnselected: {'identifier': 'custome_messge'}
+[0.000951] (-) JobUnselected: {'identifier': 'interface'}
+[0.001002] (add_two_ints) JobQueued: {'identifier': 'add_two_ints', 'dependencies': OrderedDict()}
+[0.001045] (add_two_ints) JobStarted: {'identifier': 'add_two_ints'}
+[0.018217] (add_two_ints) JobProgress: {'identifier': 'add_two_ints', 'progress': 'cmake'}
+[0.018788] (add_two_ints) Command: {'cmd': ['/usr/bin/cmake', '/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/src/add_two_ints', '-DCMAKE_INSTALL_PREFIX=/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/add_two_ints'], 'cwd': '/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/build/add_two_ints', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mazenbelal'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/lib:/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mazenbelal'), ('OLDPWD', '/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '1409'), ('SYSTEMD_EXEC_PID', '1744'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6278'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mazenbelal'), ('JOURNAL_STREAM', '8:12939'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mazenbelal'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mazenbelal-HP-15-Notebook-PC:@/tmp/.ICE-unix/1563,unix/mazenbelal-HP-15-Notebook-PC:/tmp/.ICE-unix/1563'), ('INVOCATION_ID', '17bafd5c042c48c1a4181a83f0f217c2'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.GYT5F3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface:/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:d1f4b828-a053-4452-a703-7efdaf3953d7'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/build/add_two_ints'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/local/lib/python3.10/dist-packages:/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface:/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge:/opt/ros/humble')]), 'shell': False}
+[0.098478] (-) TimerEvent: {}
+[0.116590] (add_two_ints) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.198652] (-) TimerEvent: {}
+[0.222720] (add_two_ints) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.234290] (add_two_ints) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.298753] (-) TimerEvent: {}
+[0.347323] (add_two_ints) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.362436] (add_two_ints) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.363470] (add_two_ints) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.364571] (add_two_ints) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.370875] (add_two_ints) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.399461] (-) TimerEvent: {}
+[0.500131] (-) TimerEvent: {}
+[0.515097] (add_two_ints) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.532648] (add_two_ints) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.533092] (add_two_ints) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.533626] (add_two_ints) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.536229] (add_two_ints) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.600412] (-) TimerEvent: {}
+[0.700888] (-) TimerEvent: {}
+[0.801254] (-) TimerEvent: {}
+[0.829926] (add_two_ints) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.901431] (-) TimerEvent: {}
+[0.981196] (add_two_ints) StdoutLine: {'line': b'-- Found interface: 0.0.0 (/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/share/interface/cmake)\n'}
+[1.001648] (-) TimerEvent: {}
+[1.036283] (add_two_ints) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.045182] (add_two_ints) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.057818] (add_two_ints) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.076264] (add_two_ints) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.102992] (-) TimerEvent: {}
+[1.113042] (add_two_ints) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.181855] (add_two_ints) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.202989] (-) TimerEvent: {}
+[1.303429] (-) TimerEvent: {}
+[1.404049] (-) TimerEvent: {}
+[1.440409] (add_two_ints) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.455817] (add_two_ints) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.504257] (-) TimerEvent: {}
+[1.605054] (-) TimerEvent: {}
+[1.705490] (-) TimerEvent: {}
+[1.741878] (add_two_ints) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.805854] (-) TimerEvent: {}
+[1.820900] (add_two_ints) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.891941] (add_two_ints) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.905910] (-) TimerEvent: {}
+[1.997305] (add_two_ints) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.006009] (-) TimerEvent: {}
+[2.106383] (-) TimerEvent: {}
+[2.160887] (add_two_ints) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.161420] (add_two_ints) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.206495] (-) TimerEvent: {}
+[2.289441] (add_two_ints) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[2.290830] (add_two_ints) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.306949] (-) TimerEvent: {}
+[2.407386] (-) TimerEvent: {}
+[2.507856] (-) TimerEvent: {}
+[2.608487] (-) TimerEvent: {}
+[2.708862] (-) TimerEvent: {}
+[2.809468] (-) TimerEvent: {}
+[2.911307] (-) TimerEvent: {}
+[3.011636] (-) TimerEvent: {}
+[3.070111] (add_two_ints) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.087937] (add_two_ints) StdoutLine: {'line': b'-- Generating done\n'}
+[3.093236] (add_two_ints) StdoutLine: {'line': b'-- Build files have been written to: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/build/add_two_ints\n'}
+[3.104719] (add_two_ints) CommandEnded: {'returncode': 0}
+[3.105562] (add_two_ints) JobProgress: {'identifier': 'add_two_ints', 'progress': 'build'}
+[3.106487] (add_two_ints) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/build/add_two_ints', '--', '-j4', '-l4'], 'cwd': '/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/build/add_two_ints', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mazenbelal'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/lib:/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mazenbelal'), ('OLDPWD', '/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '1409'), ('SYSTEMD_EXEC_PID', '1744'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6278'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mazenbelal'), ('JOURNAL_STREAM', '8:12939'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mazenbelal'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mazenbelal-HP-15-Notebook-PC:@/tmp/.ICE-unix/1563,unix/mazenbelal-HP-15-Notebook-PC:/tmp/.ICE-unix/1563'), ('INVOCATION_ID', '17bafd5c042c48c1a4181a83f0f217c2'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.GYT5F3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface:/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:d1f4b828-a053-4452-a703-7efdaf3953d7'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/build/add_two_ints'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/local/lib/python3.10/dist-packages:/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface:/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge:/opt/ros/humble')]), 'shell': False}
+[3.111754] (-) TimerEvent: {}
+[3.191346] (add_two_ints) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.o\x1b[0m\n'}
+[3.212075] (-) TimerEvent: {}
+[3.312649] (-) TimerEvent: {}
+[3.413044] (-) TimerEvent: {}
+[3.513551] (-) TimerEvent: {}
+[3.614238] (-) TimerEvent: {}
+[3.714579] (-) TimerEvent: {}
+[3.815010] (-) TimerEvent: {}
+[3.917147] (-) TimerEvent: {}
+[4.018817] (-) TimerEvent: {}
+[4.119334] (-) TimerEvent: {}
+[4.219750] (-) TimerEvent: {}
+[4.320478] (-) TimerEvent: {}
+[4.420879] (-) TimerEvent: {}
+[4.521276] (-) TimerEvent: {}
+[4.621627] (-) TimerEvent: {}
+[4.721976] (-) TimerEvent: {}
+[4.822421] (-) TimerEvent: {}
+[4.922931] (-) TimerEvent: {}
+[4.923332] (add_two_ints) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/src/add_two_ints/src/add_two_ints_server.cpp:2:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Ksrv_act_ros2/srv/add_two_ints.hpp: No such file or directory\n'}
+[4.923654] (add_two_ints) StderrLine: {'line': b'    2 | #include \x1b[01;31m\x1b[K"srv_act_ros2/srv/add_two_ints.hpp"\x1b[m\x1b[K\n'}
+[4.923840] (add_two_ints) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.924006] (add_two_ints) StderrLine: {'line': b'compilation terminated.\n'}
+[4.926497] (add_two_ints) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/add_two_ints_server.dir/build.make:76: CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.o] Error 1\n'}
+[4.926805] (add_two_ints) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/add_two_ints_server.dir/all] Error 2\n'}
+[4.927022] (add_two_ints) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[4.930099] (add_two_ints) CommandEnded: {'returncode': 2}
+[4.945215] (add_two_ints) JobEnded: {'identifier': 'add_two_ints', 'rc': 2}
+[4.956051] (-) EventReactorShutdown: {}

@@ -1,0 +1,21 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.o[0m
+[100%] [32m[1mLinking CXX executable add_two_ints_server[0m
+[100%] Built target add_two_ints_server
+-- Install configuration: ""
+-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/add_two_ints/lib/add_two_ints/add_two_ints_server
+-- Set runtime path of "/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/add_two_ints/lib/add_two_ints/add_two_ints_server" to ""
+-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/add_two_ints/share/ament_index/resource_index/package_run_dependencies/add_two_ints
+-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/add_two_ints/share/ament_index/resource_index/parent_prefix_path/add_two_ints
+-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/add_two_ints/share/add_two_ints/environment/ament_prefix_path.sh
+-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/add_two_ints/share/add_two_ints/environment/ament_prefix_path.dsv
+-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/add_two_ints/share/add_two_ints/environment/path.sh
+-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/add_two_ints/share/add_two_ints/environment/path.dsv
+-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/add_two_ints/share/add_two_ints/local_setup.bash
+-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/add_two_ints/share/add_two_ints/local_setup.sh
+-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/add_two_ints/share/add_two_ints/local_setup.zsh
+-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/add_two_ints/share/add_two_ints/local_setup.dsv
+-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/add_two_ints/share/add_two_ints/package.dsv
+-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/add_two_ints/share/ament_index/resource_index/packages/add_two_ints
+-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/add_two_ints/share/add_two_ints/cmake/add_two_intsConfig.cmake
+-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/add_two_ints/share/add_two_ints/cmake/add_two_intsConfig-version.cmake
+-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/add_two_ints/share/add_two_ints/package.xml

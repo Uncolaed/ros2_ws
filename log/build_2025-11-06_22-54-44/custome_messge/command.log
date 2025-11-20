@@ -1,0 +1,2 @@
+Invoking command in '/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/build/custome_messge': /usr/bin/cmake /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/src/custome_messge -DCMAKE_INSTALL_PREFIX=/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge
+Invoked command in '/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/build/custome_messge' returned '1': /usr/bin/cmake /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/src/custome_messge -DCMAKE_INSTALL_PREFIX=/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge

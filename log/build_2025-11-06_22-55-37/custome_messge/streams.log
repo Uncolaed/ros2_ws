@@ -1,0 +1,44 @@
+[0.015s] Invoking command in '/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/build/custome_messge': /usr/bin/cmake /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/src/custome_messge -DCMAKE_INSTALL_PREFIX=/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge
+[0.034s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.285s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.375s] Error parsing '/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/src/custome_messge/package.xml':
+[0.449s] Traceback (most recent call last):
+[0.450s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 610, in parse_package_string
+[0.450s]     root = dom.parseString(data)
+[0.450s]   File "/usr/lib/python3.10/xml/dom/minidom.py", line 2000, in parseString
+[0.450s]     return expatbuilder.parseString(string)
+[0.451s]   File "/usr/lib/python3.10/xml/dom/expatbuilder.py", line 925, in parseString
+[0.452s]     return builder.parseString(string)
+[0.452s]   File "/usr/lib/python3.10/xml/dom/expatbuilder.py", line 223, in parseString
+[0.453s]     parser.Parse(string, True)
+[0.453s] xml.parsers.expat.ExpatError: not well-formed (invalid token): line 10, column 3
+[0.453s] 
+[0.453s] During handling of the above exception, another exception occurred:
+[0.454s] 
+[0.454s] Traceback (most recent call last):
+[0.454s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[0.454s]     main()
+[0.454s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[0.455s]     raise e
+[0.455s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[0.455s]     package = parse_package_string(
+[0.455s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 612, in parse_package_string
+[0.455s]     raise InvalidPackage('The manifest contains invalid XML:\n%s' % ex, filename)
+[0.455s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/src/custome_messge/package.xml':
+[0.456s] The manifest contains invalid XML:
+[0.456s] not well-formed (invalid token): line 10, column 3
+[0.477s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[0.477s]   execute_process(/usr/bin/python3
+[0.477s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[0.477s]   /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/src/custome_messge/package.xml
+[0.477s]   /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/build/custome_messge/ament_cmake_core/package.cmake)
+[0.478s]   returned error code 1
+[0.478s] Call Stack (most recent call first):
+[0.478s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.478s]   /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[0.478s]   CMakeLists.txt:23 (ament_lint_auto_find_test_dependencies)
+[0.478s] 
+[0.478s] [0m
+[0.479s] -- Configuring incomplete, errors occurred!
+[0.479s] See also "/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/build/custome_messge/CMakeFiles/CMakeOutput.log".
+[0.481s] Invoked command in '/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/build/custome_messge' returned '1': /usr/bin/cmake /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/src/custome_messge -DCMAKE_INSTALL_PREFIX=/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge

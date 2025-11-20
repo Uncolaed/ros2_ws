@@ -1,0 +1,315 @@
+[0.000000] (-) TimerEvent: {}
+[0.000896] (custome_messge) JobQueued: {'identifier': 'custome_messge', 'dependencies': OrderedDict()}
+[0.001586] (custome_messge) JobStarted: {'identifier': 'custome_messge'}
+[0.012370] (custome_messge) JobProgress: {'identifier': 'custome_messge', 'progress': 'cmake'}
+[0.020901] (custome_messge) JobProgress: {'identifier': 'custome_messge', 'progress': 'build'}
+[0.022074] (custome_messge) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/build/custome_messge', '--', '-j4', '-l4'], 'cwd': '/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/build/custome_messge', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mazenbelal'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mazenbelal'), ('OLDPWD', '/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '1413'), ('SYSTEMD_EXEC_PID', '1734'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '15508'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mazenbelal/Desktop/ROS2_Projects/First_Project/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mazenbelal'), ('JOURNAL_STREAM', '8:13138'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mazenbelal'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mazenbelal-HP-15-Notebook-PC:@/tmp/.ICE-unix/1557,unix/mazenbelal-HP-15-Notebook-PC:/tmp/.ICE-unix/1557'), ('INVOCATION_ID', '1f868d4b01f64e4ba2f6d427d96bc0e5'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.W7Q5E3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mazenbelal/Desktop/ROS2_Projects/First_Project/install/pkg1:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:1c8d55e3-c015-4700-8e3e-375a0c9737c7'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/build/custome_messge'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mazenbelal/Desktop/ROS2_Projects/First_Project/install/pkg1:/opt/ros/humble')]), 'shell': False}
+[0.058235] (custome_messge) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099642] (-) TimerEvent: {}
+[0.200593] (-) TimerEvent: {}
+[0.296170] (custome_messge) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.300995] (-) TimerEvent: {}
+[0.343921] (custome_messge) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.347132] (custome_messge) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.356539] (custome_messge) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.370282] (custome_messge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.389660] (custome_messge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.401023] (-) TimerEvent: {}
+[0.435620] (custome_messge) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.437421] (custome_messge) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.501164] (-) TimerEvent: {}
+[0.578009] (custome_messge) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.601281] (-) TimerEvent: {}
+[0.652885] (custome_messge) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.701393] (-) TimerEvent: {}
+[0.801707] (-) TimerEvent: {}
+[0.902019] (-) TimerEvent: {}
+[1.002442] (-) TimerEvent: {}
+[1.094708] (custome_messge) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.102545] (-) TimerEvent: {}
+[1.202903] (-) TimerEvent: {}
+[1.303598] (-) TimerEvent: {}
+[1.404137] (-) TimerEvent: {}
+[1.504576] (-) TimerEvent: {}
+[1.604907] (-) TimerEvent: {}
+[1.639809] (custome_messge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.705008] (-) TimerEvent: {}
+[1.805397] (-) TimerEvent: {}
+[1.857086] (custome_messge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.899942] (custome_messge) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.905515] (-) TimerEvent: {}
+[1.938702] (custome_messge) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.939091] (custome_messge) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.939329] (custome_messge) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.005636] (-) TimerEvent: {}
+[2.072215] (custome_messge) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.106469] (-) TimerEvent: {}
+[2.154672] (custome_messge) StdoutLine: {'line': b'-- Generating done\n'}
+[2.187881] (custome_messge) StdoutLine: {'line': b'-- Build files have been written to: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/build/custome_messge\n'}
+[2.206573] (-) TimerEvent: {}
+[2.261011] (custome_messge) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target custome_messge__rosidl_generator_c\x1b[0m\n'}
+[2.293709] (custome_messge) StdoutLine: {'line': b'[ 12%] Built target custome_messge__cpp\n'}
+[2.294131] (custome_messge) StdoutLine: {'line': b'[ 12%] Built target custome_messge__rosidl_generator_c\n'}
+[2.306696] (-) TimerEvent: {}
+[2.312204] (custome_messge) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_custome_messge\n'}
+[2.317474] (custome_messge) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target custome_messge__rosidl_typesupport_cpp\x1b[0m\n'}
+[2.333141] (custome_messge) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target custome_messge__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[2.335865] (custome_messge) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/pub.cpp.o\x1b[0m\n'}
+[2.346736] (custome_messge) StdoutLine: {'line': b'[ 24%] Built target custome_messge__rosidl_typesupport_cpp\n'}
+[2.362608] (custome_messge) StdoutLine: {'line': b'[ 33%] Built target custome_messge__rosidl_typesupport_fastrtps_c\n'}
+[2.371031] (custome_messge) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target custome_messge__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[2.388963] (custome_messge) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target custome_messge__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[2.407080] (-) TimerEvent: {}
+[2.411134] (custome_messge) StdoutLine: {'line': b'[ 42%] Built target custome_messge__rosidl_typesupport_fastrtps_cpp\n'}
+[2.424544] (custome_messge) StdoutLine: {'line': b'[ 51%] Built target custome_messge__rosidl_typesupport_introspection_c\n'}
+[2.436105] (custome_messge) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target custome_messge__rosidl_typesupport_c\x1b[0m\n'}
+[2.470100] (custome_messge) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target custome_messge__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[2.470426] (custome_messge) StdoutLine: {'line': b'[ 60%] Built target custome_messge__rosidl_typesupport_c\n'}
+[2.498761] (custome_messge) StdoutLine: {'line': b'[ 69%] Built target custome_messge__rosidl_typesupport_introspection_cpp\n'}
+[2.507385] (-) TimerEvent: {}
+[2.533550] (custome_messge) StdoutLine: {'line': b'[ 69%] Built target custome_messge\n'}
+[2.593812] (custome_messge) StdoutLine: {'line': b'[ 72%] Built target custome_messge__py\n'}
+[2.607810] (-) TimerEvent: {}
+[2.628448] (custome_messge) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target custome_messge__rosidl_generator_py\x1b[0m\n'}
+[2.659556] (custome_messge) StdoutLine: {'line': b'[ 78%] Built target custome_messge__rosidl_generator_py\n'}
+[2.706210] (custome_messge) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target custome_messge__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[2.709683] (-) TimerEvent: {}
+[2.709894] (custome_messge) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target custome_messge__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[2.776225] (custome_messge) StdoutLine: {'line': b'[ 84%] Built target custome_messge__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.814044] (-) TimerEvent: {}
+[2.820622] (custome_messge) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target custome_messge__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[2.827219] (custome_messge) StdoutLine: {'line': b'[ 90%] Built target custome_messge__rosidl_typesupport_introspection_c__pyext\n'}
+[2.881737] (custome_messge) StdoutLine: {'line': b'[ 96%] Built target custome_messge__rosidl_typesupport_c__pyext\n'}
+[2.915106] (-) TimerEvent: {}
+[3.015933] (-) TimerEvent: {}
+[3.117203] (-) TimerEvent: {}
+[3.218120] (-) TimerEvent: {}
+[3.271071] (custome_messge) StdoutLine: {'line': b'running egg_info\n'}
+[3.272736] (custome_messge) StdoutLine: {'line': b'writing custome_messge.egg-info/PKG-INFO\n'}
+[3.274121] (custome_messge) StdoutLine: {'line': b'writing dependency_links to custome_messge.egg-info/dependency_links.txt\n'}
+[3.274658] (custome_messge) StdoutLine: {'line': b'writing top-level names to custome_messge.egg-info/top_level.txt\n'}
+[3.277654] (custome_messge) StdoutLine: {'line': b"reading manifest file 'custome_messge.egg-info/SOURCES.txt'\n"}
+[3.278801] (custome_messge) StdoutLine: {'line': b"writing manifest file 'custome_messge.egg-info/SOURCES.txt'\n"}
+[3.318323] (-) TimerEvent: {}
+[3.335696] (custome_messge) StdoutLine: {'line': b'[ 96%] Built target ament_cmake_python_build_custome_messge_egg\n'}
+[3.418697] (-) TimerEvent: {}
+[3.519822] (-) TimerEvent: {}
+[3.620486] (-) TimerEvent: {}
+[3.721146] (-) TimerEvent: {}
+[3.821702] (-) TimerEvent: {}
+[3.922369] (-) TimerEvent: {}
+[4.022682] (-) TimerEvent: {}
+[4.123032] (-) TimerEvent: {}
+[4.223429] (-) TimerEvent: {}
+[4.323799] (-) TimerEvent: {}
+[4.424139] (-) TimerEvent: {}
+[4.524487] (-) TimerEvent: {}
+[4.625040] (-) TimerEvent: {}
+[4.725944] (-) TimerEvent: {}
+[4.826904] (-) TimerEvent: {}
+[4.927301] (-) TimerEvent: {}
+[5.027679] (-) TimerEvent: {}
+[5.128039] (-) TimerEvent: {}
+[5.228471] (-) TimerEvent: {}
+[5.328861] (-) TimerEvent: {}
+[5.430342] (-) TimerEvent: {}
+[5.530780] (-) TimerEvent: {}
+[5.631141] (-) TimerEvent: {}
+[5.731586] (-) TimerEvent: {}
+[5.832011] (-) TimerEvent: {}
+[5.932385] (-) TimerEvent: {}
+[6.033371] (-) TimerEvent: {}
+[6.134030] (-) TimerEvent: {}
+[6.234771] (-) TimerEvent: {}
+[6.335188] (-) TimerEvent: {}
+[6.435605] (-) TimerEvent: {}
+[6.536206] (-) TimerEvent: {}
+[6.636634] (-) TimerEvent: {}
+[6.738018] (-) TimerEvent: {}
+[6.838486] (-) TimerEvent: {}
+[6.938961] (-) TimerEvent: {}
+[7.039903] (-) TimerEvent: {}
+[7.140355] (-) TimerEvent: {}
+[7.240698] (-) TimerEvent: {}
+[7.341132] (-) TimerEvent: {}
+[7.441555] (-) TimerEvent: {}
+[7.542540] (-) TimerEvent: {}
+[7.643027] (-) TimerEvent: {}
+[7.743471] (-) TimerEvent: {}
+[7.843891] (-) TimerEvent: {}
+[7.944544] (-) TimerEvent: {}
+[8.045075] (-) TimerEvent: {}
+[8.145993] (-) TimerEvent: {}
+[8.246729] (-) TimerEvent: {}
+[8.347181] (-) TimerEvent: {}
+[8.448110] (-) TimerEvent: {}
+[8.549146] (-) TimerEvent: {}
+[8.649889] (-) TimerEvent: {}
+[8.750344] (-) TimerEvent: {}
+[8.850725] (-) TimerEvent: {}
+[8.951656] (-) TimerEvent: {}
+[9.052127] (-) TimerEvent: {}
+[9.152566] (-) TimerEvent: {}
+[9.253058] (-) TimerEvent: {}
+[9.353891] (-) TimerEvent: {}
+[9.454400] (-) TimerEvent: {}
+[9.554932] (-) TimerEvent: {}
+[9.655309] (-) TimerEvent: {}
+[9.755691] (-) TimerEvent: {}
+[9.856233] (-) TimerEvent: {}
+[9.957026] (-) TimerEvent: {}
+[10.057393] (-) TimerEvent: {}
+[10.157798] (-) TimerEvent: {}
+[10.258149] (-) TimerEvent: {}
+[10.358502] (-) TimerEvent: {}
+[10.458899] (-) TimerEvent: {}
+[10.559266] (-) TimerEvent: {}
+[10.659617] (-) TimerEvent: {}
+[10.760002] (-) TimerEvent: {}
+[10.860379] (-) TimerEvent: {}
+[10.961207] (-) TimerEvent: {}
+[11.062019] (-) TimerEvent: {}
+[11.162469] (-) TimerEvent: {}
+[11.262845] (-) TimerEvent: {}
+[11.363239] (-) TimerEvent: {}
+[11.463628] (-) TimerEvent: {}
+[11.564023] (-) TimerEvent: {}
+[11.641775] (custome_messge) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[11.664124] (-) TimerEvent: {}
+[11.764497] (-) TimerEvent: {}
+[11.864870] (-) TimerEvent: {}
+[11.965277] (-) TimerEvent: {}
+[12.065794] (-) TimerEvent: {}
+[12.166216] (-) TimerEvent: {}
+[12.266670] (-) TimerEvent: {}
+[12.367831] (-) TimerEvent: {}
+[12.423110] (custome_messge) StdoutLine: {'line': b'[100%] Built target talker\n'}
+[12.438636] (custome_messge) CommandEnded: {'returncode': 0}
+[12.439806] (custome_messge) JobProgress: {'identifier': 'custome_messge', 'progress': 'install'}
+[12.450866] (custome_messge) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/build/custome_messge'], 'cwd': '/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/build/custome_messge', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mazenbelal'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mazenbelal'), ('OLDPWD', '/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '1413'), ('SYSTEMD_EXEC_PID', '1734'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '15508'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mazenbelal/Desktop/ROS2_Projects/First_Project/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mazenbelal'), ('JOURNAL_STREAM', '8:13138'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mazenbelal'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mazenbelal-HP-15-Notebook-PC:@/tmp/.ICE-unix/1557,unix/mazenbelal-HP-15-Notebook-PC:/tmp/.ICE-unix/1557'), ('INVOCATION_ID', '1f868d4b01f64e4ba2f6d427d96bc0e5'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.W7Q5E3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mazenbelal/Desktop/ROS2_Projects/First_Project/install/pkg1:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:1c8d55e3-c015-4700-8e3e-375a0c9737c7'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/build/custome_messge'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mazenbelal/Desktop/ROS2_Projects/First_Project/install/pkg1:/opt/ros/humble')]), 'shell': False}
+[12.461094] (custome_messge) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.461336] (custome_messge) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/share/ament_index/resource_index/rosidl_interfaces/custome_messge\n'}
+[12.461733] (custome_messge) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/include/custome_messge/custome_messge\n'}
+[12.461908] (custome_messge) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/include/custome_messge/custome_messge/msg\n'}
+[12.462046] (custome_messge) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/include/custome_messge/custome_messge/msg/detail\n'}
+[12.462154] (custome_messge) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/include/custome_messge/custome_messge/msg/detail/num__functions.c\n'}
+[12.462256] (custome_messge) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/include/custome_messge/custome_messge/msg/detail/num__type_support.h\n'}
+[12.462357] (custome_messge) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/include/custome_messge/custome_messge/msg/detail/num__functions.h\n'}
+[12.462455] (custome_messge) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/include/custome_messge/custome_messge/msg/detail/num__struct.h\n'}
+[12.462555] (custome_messge) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/include/custome_messge/custome_messge/msg/num.h\n'}
+[12.462654] (custome_messge) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/include/custome_messge/custome_messge/msg/rosidl_generator_c__visibility_control.h\n'}
+[12.462753] (custome_messge) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/share/custome_messge/environment/library_path.sh\n'}
+[12.462850] (custome_messge) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/share/custome_messge/environment/library_path.dsv\n'}
+[12.466865] (custome_messge) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/lib/libcustome_messge__rosidl_generator_c.so\n'}
+[12.467292] (custome_messge) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/include/custome_messge/custome_messge\n'}
+[12.467459] (custome_messge) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/include/custome_messge/custome_messge/msg\n'}
+[12.467616] (custome_messge) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/include/custome_messge/custome_messge/msg/detail\n'}
+[12.467755] (custome_messge) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/include/custome_messge/custome_messge/msg/detail/num__rosidl_typesupport_fastrtps_c.h\n'}
+[12.467898] (-) TimerEvent: {}
+[12.468218] (custome_messge) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/include/custome_messge/custome_messge/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[12.468394] (custome_messge) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/lib/libcustome_messge__rosidl_typesupport_fastrtps_c.so\n'}
+[12.468537] (custome_messge) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/include/custome_messge/custome_messge\n'}
+[12.468671] (custome_messge) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/include/custome_messge/custome_messge/msg\n'}
+[12.468804] (custome_messge) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/include/custome_messge/custome_messge/msg/detail\n'}
+[12.468935] (custome_messge) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/include/custome_messge/custome_messge/msg/detail/num__builder.hpp\n'}
+[12.471174] (custome_messge) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/include/custome_messge/custome_messge/msg/detail/num__type_support.hpp\n'}
+[12.471786] (custome_messge) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/include/custome_messge/custome_messge/msg/detail/num__traits.hpp\n'}
+[12.471953] (custome_messge) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/include/custome_messge/custome_messge/msg/detail/num__struct.hpp\n'}
+[12.472114] (custome_messge) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/include/custome_messge/custome_messge/msg/num.hpp\n'}
+[12.472250] (custome_messge) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/include/custome_messge/custome_messge/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[12.472422] (custome_messge) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/include/custome_messge/custome_messge\n'}
+[12.472554] (custome_messge) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/include/custome_messge/custome_messge/msg\n'}
+[12.472687] (custome_messge) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/include/custome_messge/custome_messge/msg/detail\n'}
+[12.472820] (custome_messge) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/include/custome_messge/custome_messge/msg/detail/dds_fastrtps\n'}
+[12.472960] (custome_messge) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/include/custome_messge/custome_messge/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.473104] (custome_messge) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/include/custome_messge/custome_messge/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[12.473245] (custome_messge) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/lib/libcustome_messge__rosidl_typesupport_fastrtps_cpp.so\n'}
+[12.473390] (custome_messge) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/include/custome_messge/custome_messge\n'}
+[12.473525] (custome_messge) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/include/custome_messge/custome_messge/msg\n'}
+[12.473659] (custome_messge) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/include/custome_messge/custome_messge/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[12.473796] (custome_messge) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/include/custome_messge/custome_messge/msg/detail\n'}
+[12.473932] (custome_messge) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/include/custome_messge/custome_messge/msg/detail/num__type_support.c\n'}
+[12.474089] (custome_messge) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/include/custome_messge/custome_messge/msg/detail/num__rosidl_typesupport_introspection_c.h\n'}
+[12.474228] (custome_messge) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/lib/libcustome_messge__rosidl_typesupport_introspection_c.so\n'}
+[12.474363] (custome_messge) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/lib/libcustome_messge__rosidl_typesupport_c.so\n'}
+[12.474498] (custome_messge) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/include/custome_messge/custome_messge\n'}
+[12.474642] (custome_messge) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/include/custome_messge/custome_messge/msg\n'}
+[12.474776] (custome_messge) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/include/custome_messge/custome_messge/msg/detail\n'}
+[12.474911] (custome_messge) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/include/custome_messge/custome_messge/msg/detail/num__type_support.cpp\n'}
+[12.475070] (custome_messge) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/include/custome_messge/custome_messge/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.475207] (custome_messge) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/lib/libcustome_messge__rosidl_typesupport_introspection_cpp.so\n'}
+[12.475386] (custome_messge) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/lib/libcustome_messge__rosidl_typesupport_cpp.so\n'}
+[12.475524] (custome_messge) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/share/custome_messge/environment/pythonpath.sh\n'}
+[12.475655] (custome_messge) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/share/custome_messge/environment/pythonpath.dsv\n'}
+[12.480761] (custome_messge) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/local/lib/python3.10/dist-packages/custome_messge-0.0.0-py3.10.egg-info\n'}
+[12.481141] (custome_messge) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/local/lib/python3.10/dist-packages/custome_messge-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[12.488055] (custome_messge) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/local/lib/python3.10/dist-packages/custome_messge-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[12.488936] (custome_messge) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/local/lib/python3.10/dist-packages/custome_messge-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[12.490145] (custome_messge) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/local/lib/python3.10/dist-packages/custome_messge-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[12.490552] (custome_messge) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/local/lib/python3.10/dist-packages/custome_messge\n'}
+[12.491344] (custome_messge) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/local/lib/python3.10/dist-packages/custome_messge/msg\n'}
+[12.491748] (custome_messge) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/local/lib/python3.10/dist-packages/custome_messge/msg/__init__.py\n'}
+[12.492493] (custome_messge) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/local/lib/python3.10/dist-packages/custome_messge/msg/_num_s.c\n'}
+[12.492686] (custome_messge) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/local/lib/python3.10/dist-packages/custome_messge/msg/_num.py\n'}
+[12.492864] (custome_messge) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/local/lib/python3.10/dist-packages/custome_messge/__init__.py\n'}
+[12.493059] (custome_messge) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/local/lib/python3.10/dist-packages/custome_messge/_custome_messge_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[12.493218] (custome_messge) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/local/lib/python3.10/dist-packages/custome_messge/_custome_messge_s.ep.rosidl_typesupport_c.c\n'}
+[12.493360] (custome_messge) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/local/lib/python3.10/dist-packages/custome_messge/custome_messge_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.493499] (custome_messge) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/local/lib/python3.10/dist-packages/custome_messge/libcustome_messge__rosidl_generator_py.so\n'}
+[12.493653] (custome_messge) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/local/lib/python3.10/dist-packages/custome_messge/custome_messge_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.493823] (custome_messge) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/local/lib/python3.10/dist-packages/custome_messge/custome_messge_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.493999] (custome_messge) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/local/lib/python3.10/dist-packages/custome_messge/_custome_messge_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[12.556832] (custome_messge) StdoutLine: {'line': b"Listing '/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/local/lib/python3.10/dist-packages/custome_messge'...\n"}
+[12.557176] (custome_messge) StdoutLine: {'line': b"Compiling '/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/local/lib/python3.10/dist-packages/custome_messge/__init__.py'...\n"}
+[12.557354] (custome_messge) StdoutLine: {'line': b"Listing '/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/local/lib/python3.10/dist-packages/custome_messge/msg'...\n"}
+[12.564525] (custome_messge) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/local/lib/python3.10/dist-packages/custome_messge/custome_messge_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.565625] (custome_messge) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/local/lib/python3.10/dist-packages/custome_messge/custome_messge_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.565877] (custome_messge) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/local/lib/python3.10/dist-packages/custome_messge/custome_messge_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.566163] (custome_messge) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/lib/libcustome_messge__rosidl_generator_py.so\n'}
+[12.567497] (custome_messge) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/share/custome_messge/msg/Num.idl\n'}
+[12.567815] (custome_messge) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/share/custome_messge/msg/Num.msg\n'}
+[12.567975] (-) TimerEvent: {}
+[12.568148] (custome_messge) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/lib/custome_messge/talker\n'}
+[12.568928] (custome_messge) StdoutLine: {'line': b'-- Set runtime path of "/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/lib/custome_messge/talker" to ""\n'}
+[12.569265] (custome_messge) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/share/ament_index/resource_index/package_run_dependencies/custome_messge\n'}
+[12.569518] (custome_messge) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/share/ament_index/resource_index/parent_prefix_path/custome_messge\n'}
+[12.569755] (custome_messge) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/share/custome_messge/environment/ament_prefix_path.sh\n'}
+[12.570002] (custome_messge) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/share/custome_messge/environment/ament_prefix_path.dsv\n'}
+[12.570256] (custome_messge) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/share/custome_messge/environment/path.sh\n'}
+[12.570529] (custome_messge) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/share/custome_messge/environment/path.dsv\n'}
+[12.570778] (custome_messge) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/share/custome_messge/local_setup.bash\n'}
+[12.571054] (custome_messge) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/share/custome_messge/local_setup.sh\n'}
+[12.571338] (custome_messge) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/share/custome_messge/local_setup.zsh\n'}
+[12.571609] (custome_messge) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/share/custome_messge/local_setup.dsv\n'}
+[12.571877] (custome_messge) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/share/custome_messge/package.dsv\n'}
+[12.572198] (custome_messge) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/share/ament_index/resource_index/packages/custome_messge\n'}
+[12.577566] (custome_messge) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/share/custome_messge/cmake/export_custome_messge__rosidl_generator_cExport.cmake\n'}
+[12.577875] (custome_messge) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/share/custome_messge/cmake/export_custome_messge__rosidl_generator_cExport-noconfig.cmake\n'}
+[12.578048] (custome_messge) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/share/custome_messge/cmake/export_custome_messge__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[12.578206] (custome_messge) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/share/custome_messge/cmake/export_custome_messge__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[12.578362] (custome_messge) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/share/custome_messge/cmake/export_custome_messge__rosidl_generator_cppExport.cmake\n'}
+[12.578517] (custome_messge) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/share/custome_messge/cmake/export_custome_messge__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[12.578661] (custome_messge) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/share/custome_messge/cmake/export_custome_messge__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[12.578815] (custome_messge) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/share/custome_messge/cmake/custome_messge__rosidl_typesupport_introspection_cExport.cmake\n'}
+[12.578983] (custome_messge) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/share/custome_messge/cmake/custome_messge__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[12.579153] (custome_messge) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/share/custome_messge/cmake/custome_messge__rosidl_typesupport_cExport.cmake\n'}
+[12.579319] (custome_messge) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/share/custome_messge/cmake/custome_messge__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[12.582374] (custome_messge) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/share/custome_messge/cmake/custome_messge__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[12.582667] (custome_messge) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/share/custome_messge/cmake/custome_messge__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[12.582838] (custome_messge) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/share/custome_messge/cmake/custome_messge__rosidl_typesupport_cppExport.cmake\n'}
+[12.583056] (custome_messge) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/share/custome_messge/cmake/custome_messge__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[12.583221] (custome_messge) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/share/custome_messge/cmake/export_custome_messge__rosidl_generator_pyExport.cmake\n'}
+[12.583387] (custome_messge) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/share/custome_messge/cmake/export_custome_messge__rosidl_generator_pyExport-noconfig.cmake\n'}
+[12.583544] (custome_messge) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/share/custome_messge/cmake/rosidl_cmake-extras.cmake\n'}
+[12.583702] (custome_messge) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/share/custome_messge/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[12.583875] (custome_messge) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/share/custome_messge/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[12.584059] (custome_messge) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/share/custome_messge/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[12.590562] (custome_messge) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/share/custome_messge/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[12.591777] (custome_messge) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/share/custome_messge/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[12.591976] (custome_messge) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/share/custome_messge/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[12.592159] (custome_messge) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/share/custome_messge/cmake/custome_messgeConfig.cmake\n'}
+[12.592308] (custome_messge) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/share/custome_messge/cmake/custome_messgeConfig-version.cmake\n'}
+[12.592453] (custome_messge) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/share/custome_messge/package.xml\n'}
+[12.603626] (custome_messge) CommandEnded: {'returncode': 0}
+[12.645463] (custome_messge) JobEnded: {'identifier': 'custome_messge', 'rc': 0}
+[12.647665] (-) EventReactorShutdown: {}

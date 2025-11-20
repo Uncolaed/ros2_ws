@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "custome_messge__py",
+		"source" : "/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/build/custome_messge/custome_messge__py"
+	}
+}

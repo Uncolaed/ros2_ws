@@ -1,0 +1,9 @@
+WARNING: Package name "CustomeMessage" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+  rosidl_generate_interfaces() the passed file 'msg/Num.msg' doesn't exist
+  relative to the CMAKE_CURRENT_SOURCE_DIR
+  '/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/src/CustomeMessage'
+Call Stack (most recent call first):
+  CMakeLists.txt:30 (rosidl_generate_interfaces)
+
+[0m

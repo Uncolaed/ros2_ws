@@ -1,0 +1,6 @@
+{
+  "package_name": "interface",
+  "non_idl_tuples": [
+    "/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/src/interface:srv/AddTwoInts.srv"
+  ]
+}

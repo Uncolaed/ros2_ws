@@ -1,0 +1,331 @@
+[0.000000] (-) TimerEvent: {}
+[0.000551] (-) JobUnselected: {'identifier': 'add_two_ints'}
+[0.000794] (-) JobUnselected: {'identifier': 'custome_messge'}
+[0.000882] (interface) JobQueued: {'identifier': 'interface', 'dependencies': OrderedDict([('custome_messge', '/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge')])}
+[0.000947] (interface) JobStarted: {'identifier': 'interface'}
+[0.013857] (interface) JobProgress: {'identifier': 'interface', 'progress': 'cmake'}
+[0.060409] (interface) JobProgress: {'identifier': 'interface', 'progress': 'build'}
+[0.060857] (interface) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/build/interface', '--', '-j4', '-l4'], 'cwd': '/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/build/interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mazenbelal'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/lib:/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mazenbelal'), ('OLDPWD', '/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '1409'), ('SYSTEMD_EXEC_PID', '1744'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6278'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mazenbelal'), ('JOURNAL_STREAM', '8:12939'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mazenbelal'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mazenbelal-HP-15-Notebook-PC:@/tmp/.ICE-unix/1563,unix/mazenbelal-HP-15-Notebook-PC:/tmp/.ICE-unix/1563'), ('INVOCATION_ID', '17bafd5c042c48c1a4181a83f0f217c2'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.GYT5F3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/add_two_ints:/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface:/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:d1f4b828-a053-4452-a703-7efdaf3953d7'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/build/interface'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/local/lib/python3.10/dist-packages:/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge:/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/add_two_ints:/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface:/opt/ros/humble')]), 'shell': False}
+[0.099563] (-) TimerEvent: {}
+[0.115054] (interface) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199665] (-) TimerEvent: {}
+[0.300055] (-) TimerEvent: {}
+[0.364361] (interface) StdoutLine: {'line': b'-- Found custome_messge: 0.0.0 (/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/share/custome_messge/cmake)\n'}
+[0.400226] (-) TimerEvent: {}
+[0.424721] (interface) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.428815] (interface) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.437365] (interface) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.451645] (interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.469702] (interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.487490] (interface) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.500321] (-) TimerEvent: {}
+[0.600691] (-) TimerEvent: {}
+[0.701038] (-) TimerEvent: {}
+[0.801402] (-) TimerEvent: {}
+[0.901740] (-) TimerEvent: {}
+[0.940171] (interface) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.002123] (-) TimerEvent: {}
+[1.102849] (-) TimerEvent: {}
+[1.203300] (-) TimerEvent: {}
+[1.303743] (-) TimerEvent: {}
+[1.404954] (-) TimerEvent: {}
+[1.444419] (interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.505221] (-) TimerEvent: {}
+[1.606192] (-) TimerEvent: {}
+[1.648734] (interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.682280] (interface) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.706466] (-) TimerEvent: {}
+[1.718992] (interface) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.719268] (interface) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.719425] (interface) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.747213] (interface) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.806552] (-) TimerEvent: {}
+[1.906907] (-) TimerEvent: {}
+[1.918303] (interface) StdoutLine: {'line': b'-- Generating done\n'}
+[1.956517] (interface) StdoutLine: {'line': b'-- Build files have been written to: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/build/interface\n'}
+[2.007045] (-) TimerEvent: {}
+[2.017386] (interface) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.063732] (interface) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.083324] (interface) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_interface\n'}
+[2.112315] (-) TimerEvent: {}
+[2.215399] (-) TimerEvent: {}
+[2.321223] (-) TimerEvent: {}
+[2.422078] (-) TimerEvent: {}
+[2.532340] (-) TimerEvent: {}
+[2.633530] (-) TimerEvent: {}
+[2.738076] (-) TimerEvent: {}
+[2.841973] (-) TimerEvent: {}
+[2.942642] (-) TimerEvent: {}
+[2.961726] (interface) StdoutLine: {'line': b'running egg_info\n'}
+[2.963388] (interface) StdoutLine: {'line': b'writing interface.egg-info/PKG-INFO\n'}
+[2.963879] (interface) StdoutLine: {'line': b'writing dependency_links to interface.egg-info/dependency_links.txt\n'}
+[2.964285] (interface) StdoutLine: {'line': b'writing top-level names to interface.egg-info/top_level.txt\n'}
+[2.971366] (interface) StdoutLine: {'line': b"reading manifest file 'interface.egg-info/SOURCES.txt'\n"}
+[2.973051] (interface) StdoutLine: {'line': b"writing manifest file 'interface.egg-info/SOURCES.txt'\n"}
+[3.044427] (-) TimerEvent: {}
+[3.095120] (interface) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_build_interface_egg\n'}
+[3.139926] (interface) StdoutLine: {'line': b'[  6%] Built target interface__cpp\n'}
+[3.140982] (interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interface__rosidl_generator_c\x1b[0m\n'}
+[3.145043] (-) TimerEvent: {}
+[3.181230] (interface) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/interface__rosidl_generator_c.dir/rosidl_generator_c/interface/srv/detail/add_two_ints__functions.c.o\x1b[0m\n'}
+[3.189508] (interface) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[3.195236] (interface) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.223214] (interface) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.245167] (-) TimerEvent: {}
+[3.347154] (-) TimerEvent: {}
+[3.387606] (interface) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libinterface__rosidl_generator_c.so\x1b[0m\n'}
+[3.447598] (-) TimerEvent: {}
+[3.500221] (interface) StdoutLine: {'line': b'[ 22%] Built target interface__rosidl_generator_c\n'}
+[3.547697] (-) TimerEvent: {}
+[3.568841] (interface) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.647813] (-) TimerEvent: {}
+[3.751791] (-) TimerEvent: {}
+[3.852680] (-) TimerEvent: {}
+[3.953070] (-) TimerEvent: {}
+[4.053633] (-) TimerEvent: {}
+[4.154536] (-) TimerEvent: {}
+[4.257633] (-) TimerEvent: {}
+[4.358974] (-) TimerEvent: {}
+[4.395848] (interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interface__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[4.423157] (interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interface__rosidl_typesupport_cpp\x1b[0m\n'}
+[4.432536] (interface) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interface/srv/detail/add_two_ints__type_support.cpp.o\x1b[0m\n'}
+[4.459685] (-) TimerEvent: {}
+[4.520218] (interface) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface/srv/add_two_ints__type_support.cpp.o\x1b[0m\n'}
+[4.523080] (interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interface__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[4.562924] (-) TimerEvent: {}
+[4.568897] (interface) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interface/srv/detail/add_two_ints__type_support_c.cpp.o\x1b[0m\n'}
+[4.663093] (-) TimerEvent: {}
+[4.767742] (-) TimerEvent: {}
+[4.851147] (interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interface__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[4.870265] (-) TimerEvent: {}
+[4.920724] (interface) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interface/srv/detail/dds_fastrtps/add_two_ints__type_support.cpp.o\x1b[0m\n'}
+[4.971091] (-) TimerEvent: {}
+[5.073758] (-) TimerEvent: {}
+[5.181876] (-) TimerEvent: {}
+[5.289944] (-) TimerEvent: {}
+[5.397807] (-) TimerEvent: {}
+[5.499077] (-) TimerEvent: {}
+[5.544039] (interface) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking CXX shared library libinterface__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[5.599611] (-) TimerEvent: {}
+[5.705125] (-) TimerEvent: {}
+[5.766291] (interface) StdoutLine: {'line': b'[ 41%] Built target interface__rosidl_typesupport_cpp\n'}
+[5.805308] (-) TimerEvent: {}
+[5.873456] (interface) StdoutLine: {'line': b'[ 45%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[5.890768] (interface) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libinterface__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[5.907446] (-) TimerEvent: {}
+[6.010291] (-) TimerEvent: {}
+[6.110765] (-) TimerEvent: {}
+[6.166653] (interface) StdoutLine: {'line': b'[ 48%] Built target interface__rosidl_typesupport_introspection_cpp\n'}
+[6.210884] (-) TimerEvent: {}
+[6.242726] (interface) StdoutLine: {'line': b'[ 51%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[6.316553] (interface) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libinterface__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[6.317672] (-) TimerEvent: {}
+[6.426745] (-) TimerEvent: {}
+[6.527890] (-) TimerEvent: {}
+[6.629000] (-) TimerEvent: {}
+[6.730746] (-) TimerEvent: {}
+[6.731598] (interface) StdoutLine: {'line': b'[ 54%] Built target interface__rosidl_typesupport_fastrtps_c\n'}
+[6.815412] (interface) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libinterface__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[6.830872] (-) TimerEvent: {}
+[6.931337] (-) TimerEvent: {}
+[7.032315] (-) TimerEvent: {}
+[7.096855] (interface) StdoutLine: {'line': b'[ 58%] Built target interface__rosidl_typesupport_fastrtps_cpp\n'}
+[7.106020] (interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interface__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[7.126407] (interface) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interface/srv/detail/add_two_ints__type_support.c.o\x1b[0m\n'}
+[7.132484] (-) TimerEvent: {}
+[7.207250] (interface) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking C shared library libinterface__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[7.233667] (-) TimerEvent: {}
+[7.293691] (interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interface__rosidl_typesupport_c\x1b[0m\n'}
+[7.307897] (interface) StdoutLine: {'line': b'[ 64%] Built target interface__rosidl_typesupport_introspection_c\n'}
+[7.318710] (interface) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/interface/srv/add_two_ints__type_support.cpp.o\x1b[0m\n'}
+[7.333781] (-) TimerEvent: {}
+[7.387891] (interface) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libinterface__rosidl_typesupport_c.so\x1b[0m\n'}
+[7.433909] (-) TimerEvent: {}
+[7.496614] (interface) StdoutLine: {'line': b'[ 70%] Built target interface__rosidl_typesupport_c\n'}
+[7.534020] (-) TimerEvent: {}
+[7.562294] (interface) StdoutLine: {'line': b'[ 70%] Built target interface\n'}
+[7.596874] (interface) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[7.634316] (-) TimerEvent: {}
+[7.734934] (-) TimerEvent: {}
+[7.835601] (-) TimerEvent: {}
+[7.936004] (-) TimerEvent: {}
+[8.036381] (-) TimerEvent: {}
+[8.138557] (-) TimerEvent: {}
+[8.238985] (-) TimerEvent: {}
+[8.346673] (-) TimerEvent: {}
+[8.376693] (interface) StdoutLine: {'line': b'[ 74%] Built target interface__py\n'}
+[8.446815] (-) TimerEvent: {}
+[8.472637] (interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interface__rosidl_generator_py\x1b[0m\n'}
+[8.497237] (interface) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/interface__rosidl_generator_py.dir/rosidl_generator_py/interface/srv/_add_two_ints_s.c.o\x1b[0m\n'}
+[8.546908] (-) TimerEvent: {}
+[8.647244] (-) TimerEvent: {}
+[8.709691] (interface) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interface/libinterface__rosidl_generator_py.so\x1b[0m\n'}
+[8.747842] (-) TimerEvent: {}
+[8.823398] (interface) StdoutLine: {'line': b'[ 80%] Built target interface__rosidl_generator_py\n'}
+[8.846487] (interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interface__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[8.846827] (interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interface__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[8.847904] (-) TimerEvent: {}
+[8.875928] (interface) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/interface/_interface_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[8.879576] (interface) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/interface/_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[8.942348] (interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interface__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[8.949939] (-) TimerEvent: {}
+[8.979649] (interface) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/interface/_interface_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[9.050371] (-) TimerEvent: {}
+[9.151128] (-) TimerEvent: {}
+[9.165642] (interface) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interface/interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[9.222269] (interface) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interface/interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[9.250547] (interface) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interface/interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[9.251197] (-) TimerEvent: {}
+[9.253285] (interface) StdoutLine: {'line': b'[100%] Built target interface__rosidl_typesupport_introspection_c__pyext\n'}
+[9.313894] (interface) StdoutLine: {'line': b'[100%] Built target interface__rosidl_typesupport_fastrtps_c__pyext\n'}
+[9.350355] (interface) StdoutLine: {'line': b'[100%] Built target interface__rosidl_typesupport_c__pyext\n'}
+[9.351274] (-) TimerEvent: {}
+[9.376530] (interface) CommandEnded: {'returncode': 0}
+[9.379121] (interface) JobProgress: {'identifier': 'interface', 'progress': 'install'}
+[9.411029] (interface) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/build/interface'], 'cwd': '/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/build/interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mazenbelal'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/lib:/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mazenbelal'), ('OLDPWD', '/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '1409'), ('SYSTEMD_EXEC_PID', '1744'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6278'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mazenbelal'), ('JOURNAL_STREAM', '8:12939'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mazenbelal'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mazenbelal-HP-15-Notebook-PC:@/tmp/.ICE-unix/1563,unix/mazenbelal-HP-15-Notebook-PC:/tmp/.ICE-unix/1563'), ('INVOCATION_ID', '17bafd5c042c48c1a4181a83f0f217c2'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.GYT5F3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/add_two_ints:/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface:/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:d1f4b828-a053-4452-a703-7efdaf3953d7'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/build/interface'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/local/lib/python3.10/dist-packages:/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge:/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/add_two_ints:/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface:/opt/ros/humble')]), 'shell': False}
+[9.429401] (interface) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.429725] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/share/ament_index/resource_index/rosidl_interfaces/interface\n'}
+[9.430005] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/include/interface/interface\n'}
+[9.430273] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/include/interface/interface/msg\n'}
+[9.430508] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/include/interface/interface/msg/rosidl_generator_c__visibility_control.h\n'}
+[9.430680] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/include/interface/interface/srv\n'}
+[9.430862] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/include/interface/interface/srv/detail\n'}
+[9.431104] (interface) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/include/interface/interface/srv/detail/add_two_ints__struct.h\n'}
+[9.431266] (interface) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/include/interface/interface/srv/detail/add_two_ints__type_support.h\n'}
+[9.431410] (interface) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/include/interface/interface/srv/detail/add_two_ints__functions.h\n'}
+[9.431551] (interface) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/include/interface/interface/srv/detail/add_two_ints__functions.c\n'}
+[9.431688] (interface) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/include/interface/interface/srv/add_two_ints.h\n'}
+[9.431824] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/share/interface/environment/library_path.sh\n'}
+[9.431969] (interface) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/share/interface/environment/library_path.dsv\n'}
+[9.451400] (-) TimerEvent: {}
+[9.452219] (interface) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/lib/libinterface__rosidl_generator_c.so\n'}
+[9.452791] (interface) StdoutLine: {'line': b'-- Set runtime path of "/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/lib/libinterface__rosidl_generator_c.so" to ""\n'}
+[9.453102] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/include/interface/interface\n'}
+[9.453296] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/include/interface/interface/msg\n'}
+[9.453462] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/include/interface/interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[9.453627] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/include/interface/interface/srv\n'}
+[9.455712] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/include/interface/interface/srv/detail\n'}
+[9.456669] (interface) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/include/interface/interface/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_c.h\n'}
+[9.458253] (interface) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/lib/libinterface__rosidl_typesupport_fastrtps_c.so\n'}
+[9.458542] (interface) StdoutLine: {'line': b'-- Set runtime path of "/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/lib/libinterface__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[9.458701] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/include/interface/interface\n'}
+[9.458856] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/include/interface/interface/msg\n'}
+[9.459008] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/include/interface/interface/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[9.459188] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/include/interface/interface/srv\n'}
+[9.459380] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/include/interface/interface/srv/detail\n'}
+[9.459528] (interface) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/include/interface/interface/srv/detail/add_two_ints__type_support.hpp\n'}
+[9.459683] (interface) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/include/interface/interface/srv/detail/add_two_ints__struct.hpp\n'}
+[9.459837] (interface) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/include/interface/interface/srv/detail/add_two_ints__builder.hpp\n'}
+[9.459991] (interface) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/include/interface/interface/srv/detail/add_two_ints__traits.hpp\n'}
+[9.460970] (interface) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/include/interface/interface/srv/add_two_ints.hpp\n'}
+[9.461399] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/include/interface/interface\n'}
+[9.463936] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/include/interface/interface/msg\n'}
+[9.464387] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/include/interface/interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[9.464625] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/include/interface/interface/srv\n'}
+[9.464833] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/include/interface/interface/srv/detail\n'}
+[9.465016] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/include/interface/interface/srv/detail/dds_fastrtps\n'}
+[9.465203] (interface) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/include/interface/interface/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.465407] (interface) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/lib/libinterface__rosidl_typesupport_fastrtps_cpp.so\n'}
+[9.465602] (interface) StdoutLine: {'line': b'-- Set runtime path of "/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/lib/libinterface__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[9.465776] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/include/interface/interface\n'}
+[9.465936] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/include/interface/interface/msg\n'}
+[9.466280] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/include/interface/interface/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[9.466453] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/include/interface/interface/srv\n'}
+[9.466632] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/include/interface/interface/srv/detail\n'}
+[9.466801] (interface) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/include/interface/interface/srv/detail/add_two_ints__rosidl_typesupport_introspection_c.h\n'}
+[9.466958] (interface) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/include/interface/interface/srv/detail/add_two_ints__type_support.c\n'}
+[9.467126] (interface) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/lib/libinterface__rosidl_typesupport_introspection_c.so\n'}
+[9.467470] (interface) StdoutLine: {'line': b'-- Set runtime path of "/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/lib/libinterface__rosidl_typesupport_introspection_c.so" to ""\n'}
+[9.467695] (interface) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/lib/libinterface__rosidl_typesupport_c.so\n'}
+[9.467859] (interface) StdoutLine: {'line': b'-- Set runtime path of "/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/lib/libinterface__rosidl_typesupport_c.so" to ""\n'}
+[9.468036] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/include/interface/interface\n'}
+[9.468230] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/include/interface/interface/srv\n'}
+[9.468426] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/include/interface/interface/srv/detail\n'}
+[9.468599] (interface) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/include/interface/interface/srv/detail/add_two_ints__type_support.cpp\n'}
+[9.468749] (interface) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/include/interface/interface/srv/detail/add_two_ints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.468958] (interface) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/lib/libinterface__rosidl_typesupport_introspection_cpp.so\n'}
+[9.469917] (interface) StdoutLine: {'line': b'-- Set runtime path of "/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/lib/libinterface__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[9.470916] (interface) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/lib/libinterface__rosidl_typesupport_cpp.so\n'}
+[9.472092] (interface) StdoutLine: {'line': b'-- Set runtime path of "/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/lib/libinterface__rosidl_typesupport_cpp.so" to ""\n'}
+[9.472663] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/share/interface/environment/pythonpath.sh\n'}
+[9.472883] (interface) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/share/interface/environment/pythonpath.dsv\n'}
+[9.480892] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface-0.0.0-py3.10.egg-info\n'}
+[9.481963] (interface) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[9.501390] (interface) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[9.534497] (interface) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[9.551522] (-) TimerEvent: {}
+[9.557607] (interface) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[9.578892] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface\n'}
+[9.579258] (interface) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.579486] (interface) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.579694] (interface) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/__init__.py\n'}
+[9.579916] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/srv\n'}
+[9.580077] (interface) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/srv/_add_two_ints.py\n'}
+[9.580325] (interface) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/srv/__init__.py\n'}
+[9.580557] (interface) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/srv/_add_two_ints_s.c\n'}
+[9.580740] (interface) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.580954] (interface) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/libinterface__rosidl_generator_py.so\n'}
+[9.581263] (interface) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/_interface_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[9.581542] (interface) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/_interface_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[9.581812] (interface) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/_interface_s.ep.rosidl_typesupport_c.c\n'}
+[9.651619] (-) TimerEvent: {}
+[9.654378] (interface) StdoutLine: {'line': b"Listing '/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface'...\n"}
+[9.654873] (interface) StdoutLine: {'line': b"Compiling '/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/__init__.py'...\n"}
+[9.655348] (interface) StdoutLine: {'line': b"Listing '/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/srv'...\n"}
+[9.655921] (interface) StdoutLine: {'line': b"Compiling '/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/srv/__init__.py'...\n"}
+[9.656214] (interface) StdoutLine: {'line': b"Compiling '/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/srv/_add_two_ints.py'...\n"}
+[9.665695] (interface) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.666812] (interface) StdoutLine: {'line': b'-- Set runtime path of "/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[9.667210] (interface) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.667846] (interface) StdoutLine: {'line': b'-- Set runtime path of "/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[9.670003] (interface) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.670379] (interface) StdoutLine: {'line': b'-- Set runtime path of "/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[9.670559] (interface) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/lib/libinterface__rosidl_generator_py.so\n'}
+[9.670849] (interface) StdoutLine: {'line': b'-- Set runtime path of "/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/lib/libinterface__rosidl_generator_py.so" to ""\n'}
+[9.671001] (interface) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/share/interface/srv/AddTwoInts.idl\n'}
+[9.671286] (interface) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/share/interface/srv/AddTwoInts.srv\n'}
+[9.671844] (interface) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/share/interface/srv/AddTwoInts_Request.msg\n'}
+[9.672303] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/share/interface/srv/AddTwoInts_Response.msg\n'}
+[9.672583] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/share/ament_index/resource_index/package_run_dependencies/interface\n'}
+[9.672751] (interface) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/share/ament_index/resource_index/parent_prefix_path/interface\n'}
+[9.685049] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/share/interface/environment/ament_prefix_path.sh\n'}
+[9.685571] (interface) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/share/interface/environment/ament_prefix_path.dsv\n'}
+[9.695695] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/share/interface/environment/path.sh\n'}
+[9.696005] (interface) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/share/interface/environment/path.dsv\n'}
+[9.696651] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/share/interface/local_setup.bash\n'}
+[9.696930] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/share/interface/local_setup.sh\n'}
+[9.697095] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/share/interface/local_setup.zsh\n'}
+[9.697387] (interface) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/share/interface/local_setup.dsv\n'}
+[9.699248] (interface) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/share/interface/package.dsv\n'}
+[9.699935] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/share/ament_index/resource_index/packages/interface\n'}
+[9.700693] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/share/interface/cmake/export_interface__rosidl_generator_cExport.cmake\n'}
+[9.700948] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/share/interface/cmake/export_interface__rosidl_generator_cExport-noconfig.cmake\n'}
+[9.701105] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/share/interface/cmake/export_interface__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[9.701290] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/share/interface/cmake/export_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[9.701452] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/share/interface/cmake/export_interface__rosidl_generator_cppExport.cmake\n'}
+[9.701608] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/share/interface/cmake/export_interface__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[9.701771] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/share/interface/cmake/export_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[9.702013] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/share/interface/cmake/interface__rosidl_typesupport_introspection_cExport.cmake\n'}
+[9.702224] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/share/interface/cmake/interface__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[9.702549] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/share/interface/cmake/interface__rosidl_typesupport_cExport.cmake\n'}
+[9.702849] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/share/interface/cmake/interface__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[9.703079] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/share/interface/cmake/interface__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[9.703584] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/share/interface/cmake/interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[9.704204] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/share/interface/cmake/interface__rosidl_typesupport_cppExport.cmake\n'}
+[9.706078] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/share/interface/cmake/interface__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[9.706482] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/share/interface/cmake/export_interface__rosidl_generator_pyExport.cmake\n'}
+[9.706646] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/share/interface/cmake/export_interface__rosidl_generator_pyExport-noconfig.cmake\n'}
+[9.706801] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/share/interface/cmake/rosidl_cmake-extras.cmake\n'}
+[9.706959] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/share/interface/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[9.707118] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/share/interface/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[9.707444] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/share/interface/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[9.707600] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/share/interface/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[9.707745] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/share/interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[9.707880] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/share/interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[9.708014] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/share/interface/cmake/interfaceConfig.cmake\n'}
+[9.708151] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/share/interface/cmake/interfaceConfig-version.cmake\n'}
+[9.708284] (interface) StdoutLine: {'line': b'-- Installing: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/interface/share/interface/package.xml\n'}
+[9.720466] (interface) CommandEnded: {'returncode': 0}
+[9.751749] (-) TimerEvent: {}
+[9.781326] (interface) JobEnded: {'identifier': 'interface', 'rc': 0}
+[9.783006] (-) EventReactorShutdown: {}

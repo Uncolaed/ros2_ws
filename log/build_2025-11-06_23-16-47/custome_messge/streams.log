@@ -1,0 +1,11 @@
+[0.085s] Invoking command in '/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/build/custome_messge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/build/custome_messge -- -j4 -l4
+[0.268s] [  3%] Built target custome_messge__cpp
+[0.403s] [  6%] [32mBuilding CXX object CMakeFiles/talker.dir/src/pub.cpp.o[0m
+[1.125s] [01m[K/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/src/custome_messge/src/pub.cpp:8:10:[m[K [01;31m[Kfatal error: [m[Kcustome_messge/msg/num.hpp: No such file or directory
+[1.128s]     8 | #include [01;31m[K"custome_messge/msg/num.hpp"[m[K
+[1.129s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.129s] compilation terminated.
+[1.132s] gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/pub.cpp.o] Error 1
+[1.132s] gmake[1]: *** [CMakeFiles/Makefile2:592: CMakeFiles/talker.dir/all] Error 2
+[1.133s] gmake: *** [Makefile:146: all] Error 2
+[1.149s] Invoked command in '/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/build/custome_messge' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/build/custome_messge -- -j4 -l4

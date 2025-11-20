@@ -1,0 +1,7 @@
+[0.016s] Invoking command in '/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/build/add_two_ints': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/src/add_two_ints -DCMAKE_INSTALL_PREFIX=/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/add_two_ints
+[0.036s] [31mCMake Error at CMakeLists.txt:17:
+[0.037s]   Parse error.  Expected "(", got identifier with text "executable".
+[0.037s] 
+[0.038s] [0m
+[0.040s] -- Configuring incomplete, errors occurred!
+[0.041s] Invoked command in '/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/build/add_two_ints' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/src/add_two_ints -DCMAKE_INSTALL_PREFIX=/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/add_two_ints

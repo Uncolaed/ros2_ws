@@ -1,0 +1,1 @@
+Invoking command in '/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/build/CustomeMessage': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/src/CustomeMessage -DCMAKE_INSTALL_PREFIX=/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/CustomeMessage
