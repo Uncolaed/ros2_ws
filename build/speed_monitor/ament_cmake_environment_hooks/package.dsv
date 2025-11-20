@@ -1,0 +1,4 @@
+source;share/speed_monitor/local_setup.bash
+source;share/speed_monitor/local_setup.dsv
+source;share/speed_monitor/local_setup.sh
+source;share/speed_monitor/local_setup.zsh

@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-6530f8b59b84d2de527a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "speed_monitor",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "speed_checker_subscriber::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-speed_checker_subscriber-d12a8f57614fb558fa93.json",
+					"name" : "speed_checker_subscriber",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "speed_monitor_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-speed_monitor_uninstall-2cc7354772164057fe38.json",
+					"name" : "speed_monitor_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "speed_sensor_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-speed_sensor_publisher-707b4a6fb96436b78e69.json",
+					"name" : "speed_sensor_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-7cb977248801afeebd8e.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/build/speed_monitor",
+		"source" : "/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/src/speed_monitor"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
