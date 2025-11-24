@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "string": "cpp",
+        "memory": "cpp"
+    },
+    "cmake.sourceDirectory": "/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/src/action_class_work"
+}

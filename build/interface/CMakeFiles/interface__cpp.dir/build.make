@@ -76,6 +76,11 @@ CMakeFiles/interface__cpp: rosidl_generator_cpp/interface/action/detail/countdow
 CMakeFiles/interface__cpp: rosidl_generator_cpp/interface/action/detail/countdown__struct.hpp
 CMakeFiles/interface__cpp: rosidl_generator_cpp/interface/action/detail/countdown__traits.hpp
 CMakeFiles/interface__cpp: rosidl_generator_cpp/interface/action/detail/countdown__type_support.hpp
+CMakeFiles/interface__cpp: rosidl_generator_cpp/interface/msg/temprature.hpp
+CMakeFiles/interface__cpp: rosidl_generator_cpp/interface/msg/detail/temprature__builder.hpp
+CMakeFiles/interface__cpp: rosidl_generator_cpp/interface/msg/detail/temprature__struct.hpp
+CMakeFiles/interface__cpp: rosidl_generator_cpp/interface/msg/detail/temprature__traits.hpp
+CMakeFiles/interface__cpp: rosidl_generator_cpp/interface/msg/detail/temprature__type_support.hpp
 CMakeFiles/interface__cpp: rosidl_generator_cpp/interface/msg/rosidl_generator_cpp__visibility_control.hpp
 
 rosidl_generator_cpp/interface/srv/add_two_ints.hpp: /opt/ros/humble/lib/rosidl_generator_cpp/rosidl_generator_cpp
@@ -95,6 +100,7 @@ rosidl_generator_cpp/interface/srv/add_two_ints.hpp: /opt/ros/humble/share/rosid
 rosidl_generator_cpp/interface/srv/add_two_ints.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
 rosidl_generator_cpp/interface/srv/add_two_ints.hpp: rosidl_adapter/interface/srv/AddTwoInts.idl
 rosidl_generator_cpp/interface/srv/add_two_ints.hpp: rosidl_adapter/interface/action/Countdown.idl
+rosidl_generator_cpp/interface/srv/add_two_ints.hpp: rosidl_adapter/interface/msg/Temprature.idl
 rosidl_generator_cpp/interface/srv/add_two_ints.hpp: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/share/custome_messge/msg/Num.idl
 rosidl_generator_cpp/interface/srv/add_two_ints.hpp: /opt/ros/humble/share/action_msgs/msg/GoalInfo.idl
 rosidl_generator_cpp/interface/srv/add_two_ints.hpp: /opt/ros/humble/share/action_msgs/msg/GoalStatus.idl
@@ -133,12 +139,32 @@ rosidl_generator_cpp/interface/action/detail/countdown__traits.hpp: rosidl_gener
 rosidl_generator_cpp/interface/action/detail/countdown__type_support.hpp: rosidl_generator_cpp/interface/srv/add_two_ints.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interface/action/detail/countdown__type_support.hpp
 
+rosidl_generator_cpp/interface/msg/temprature.hpp: rosidl_generator_cpp/interface/srv/add_two_ints.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interface/msg/temprature.hpp
+
+rosidl_generator_cpp/interface/msg/detail/temprature__builder.hpp: rosidl_generator_cpp/interface/srv/add_two_ints.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interface/msg/detail/temprature__builder.hpp
+
+rosidl_generator_cpp/interface/msg/detail/temprature__struct.hpp: rosidl_generator_cpp/interface/srv/add_two_ints.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interface/msg/detail/temprature__struct.hpp
+
+rosidl_generator_cpp/interface/msg/detail/temprature__traits.hpp: rosidl_generator_cpp/interface/srv/add_two_ints.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interface/msg/detail/temprature__traits.hpp
+
+rosidl_generator_cpp/interface/msg/detail/temprature__type_support.hpp: rosidl_generator_cpp/interface/srv/add_two_ints.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interface/msg/detail/temprature__type_support.hpp
+
 interface__cpp: CMakeFiles/interface__cpp
 interface__cpp: rosidl_generator_cpp/interface/action/countdown.hpp
 interface__cpp: rosidl_generator_cpp/interface/action/detail/countdown__builder.hpp
 interface__cpp: rosidl_generator_cpp/interface/action/detail/countdown__struct.hpp
 interface__cpp: rosidl_generator_cpp/interface/action/detail/countdown__traits.hpp
 interface__cpp: rosidl_generator_cpp/interface/action/detail/countdown__type_support.hpp
+interface__cpp: rosidl_generator_cpp/interface/msg/detail/temprature__builder.hpp
+interface__cpp: rosidl_generator_cpp/interface/msg/detail/temprature__struct.hpp
+interface__cpp: rosidl_generator_cpp/interface/msg/detail/temprature__traits.hpp
+interface__cpp: rosidl_generator_cpp/interface/msg/detail/temprature__type_support.hpp
+interface__cpp: rosidl_generator_cpp/interface/msg/temprature.hpp
 interface__cpp: rosidl_generator_cpp/interface/srv/add_two_ints.hpp
 interface__cpp: rosidl_generator_cpp/interface/srv/detail/add_two_ints__builder.hpp
 interface__cpp: rosidl_generator_cpp/interface/srv/detail/add_two_ints__struct.hpp

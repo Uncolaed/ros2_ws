@@ -1,12 +1,16 @@
 file(REMOVE_RECURSE
   "CMakeFiles/interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interface/action/detail/countdown__type_support_c.cpp.o"
   "CMakeFiles/interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interface/action/detail/countdown__type_support_c.cpp.o.d"
+  "CMakeFiles/interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interface/msg/detail/temprature__type_support_c.cpp.o"
+  "CMakeFiles/interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interface/msg/detail/temprature__type_support_c.cpp.o.d"
   "CMakeFiles/interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interface/srv/detail/add_two_ints__type_support_c.cpp.o"
   "CMakeFiles/interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interface/srv/detail/add_two_ints__type_support_c.cpp.o.d"
   "libinterface__rosidl_typesupport_fastrtps_c.pdb"
   "libinterface__rosidl_typesupport_fastrtps_c.so"
   "rosidl_typesupport_fastrtps_c/interface/action/detail/countdown__rosidl_typesupport_fastrtps_c.h"
   "rosidl_typesupport_fastrtps_c/interface/action/detail/countdown__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/interface/msg/detail/temprature__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/interface/msg/detail/temprature__type_support_c.cpp"
   "rosidl_typesupport_fastrtps_c/interface/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_c.h"
   "rosidl_typesupport_fastrtps_c/interface/srv/detail/add_two_ints__type_support_c.cpp"
 )

@@ -1,5 +1,7 @@
 action/Countdown.action
 action/Countdown.idl
+msg/Temprature.idl
+msg/Temprature.msg
 srv/AddTwoInts.idl
 srv/AddTwoInts.srv
 srv/AddTwoInts_Request.msg

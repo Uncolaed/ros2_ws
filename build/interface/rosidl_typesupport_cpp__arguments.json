@@ -4,7 +4,8 @@
   "template_dir": "/opt/ros/humble/share/rosidl_typesupport_cpp/resource",
   "idl_tuples": [
     "/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/build/interface/rosidl_adapter/interface:srv/AddTwoInts.idl",
-    "/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/build/interface/rosidl_adapter/interface:action/Countdown.idl"
+    "/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/build/interface/rosidl_adapter/interface:action/Countdown.idl",
+    "/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/build/interface/rosidl_adapter/interface:msg/Temprature.idl"
   ],
   "ros_interface_dependencies": [
     "custome_messge:/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/share/custome_messge/msg/Num.idl",
@@ -25,6 +26,7 @@
     "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/srv__type_support.cpp.em",
     "/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/build/interface/rosidl_adapter/interface/srv/AddTwoInts.idl",
     "/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/build/interface/rosidl_adapter/interface/action/Countdown.idl",
+    "/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/build/interface/rosidl_adapter/interface/msg/Temprature.idl",
     "/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/share/custome_messge/msg/Num.idl",
     "/opt/ros/humble/share/action_msgs/msg/GoalInfo.idl",
     "/opt/ros/humble/share/action_msgs/msg/GoalStatus.idl",

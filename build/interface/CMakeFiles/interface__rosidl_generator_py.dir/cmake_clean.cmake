@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/interface__rosidl_generator_py.dir/rosidl_generator_py/interface/action/_countdown_s.c.o"
   "CMakeFiles/interface__rosidl_generator_py.dir/rosidl_generator_py/interface/action/_countdown_s.c.o.d"
+  "CMakeFiles/interface__rosidl_generator_py.dir/rosidl_generator_py/interface/msg/_temprature_s.c.o"
+  "CMakeFiles/interface__rosidl_generator_py.dir/rosidl_generator_py/interface/msg/_temprature_s.c.o.d"
   "CMakeFiles/interface__rosidl_generator_py.dir/rosidl_generator_py/interface/srv/_add_two_ints_s.c.o"
   "CMakeFiles/interface__rosidl_generator_py.dir/rosidl_generator_py/interface/srv/_add_two_ints_s.c.o.d"
   "rosidl_generator_py/interface/libinterface__rosidl_generator_py.pdb"

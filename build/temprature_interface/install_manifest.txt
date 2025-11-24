@@ -1,0 +1,16 @@
+/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/temprature_interface/lib/temprature_interface/temprature_publisher
+/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/temprature_interface/share/ament_index/resource_index/package_run_dependencies/temprature_interface
+/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/temprature_interface/share/ament_index/resource_index/parent_prefix_path/temprature_interface
+/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/temprature_interface/share/temprature_interface/environment/ament_prefix_path.sh
+/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/temprature_interface/share/temprature_interface/environment/ament_prefix_path.dsv
+/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/temprature_interface/share/temprature_interface/environment/path.sh
+/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/temprature_interface/share/temprature_interface/environment/path.dsv
+/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/temprature_interface/share/temprature_interface/local_setup.bash
+/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/temprature_interface/share/temprature_interface/local_setup.sh
+/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/temprature_interface/share/temprature_interface/local_setup.zsh
+/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/temprature_interface/share/temprature_interface/local_setup.dsv
+/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/temprature_interface/share/temprature_interface/package.dsv
+/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/temprature_interface/share/ament_index/resource_index/packages/temprature_interface
+/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/temprature_interface/share/temprature_interface/cmake/temprature_interfaceConfig.cmake
+/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/temprature_interface/share/temprature_interface/cmake/temprature_interfaceConfig-version.cmake
+/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/temprature_interface/share/temprature_interface/package.xml

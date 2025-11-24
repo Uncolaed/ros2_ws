@@ -84,6 +84,7 @@ rosidl_generator_c/interface/srv/add_two_ints.h: /opt/ros/humble/share/rosidl_ge
 rosidl_generator_c/interface/srv/add_two_ints.h: /opt/ros/humble/share/rosidl_generator_c/resource/srv__type_support.h.em
 rosidl_generator_c/interface/srv/add_two_ints.h: rosidl_adapter/interface/srv/AddTwoInts.idl
 rosidl_generator_c/interface/srv/add_two_ints.h: rosidl_adapter/interface/action/Countdown.idl
+rosidl_generator_c/interface/srv/add_two_ints.h: rosidl_adapter/interface/msg/Temprature.idl
 rosidl_generator_c/interface/srv/add_two_ints.h: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/share/custome_messge/msg/Num.idl
 rosidl_generator_c/interface/srv/add_two_ints.h: /opt/ros/humble/share/action_msgs/msg/GoalInfo.idl
 rosidl_generator_c/interface/srv/add_two_ints.h: /opt/ros/humble/share/action_msgs/msg/GoalStatus.idl
@@ -116,11 +117,26 @@ rosidl_generator_c/interface/action/detail/countdown__struct.h: rosidl_generator
 rosidl_generator_c/interface/action/detail/countdown__type_support.h: rosidl_generator_c/interface/srv/add_two_ints.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/interface/action/detail/countdown__type_support.h
 
+rosidl_generator_c/interface/msg/temprature.h: rosidl_generator_c/interface/srv/add_two_ints.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/interface/msg/temprature.h
+
+rosidl_generator_c/interface/msg/detail/temprature__functions.h: rosidl_generator_c/interface/srv/add_two_ints.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/interface/msg/detail/temprature__functions.h
+
+rosidl_generator_c/interface/msg/detail/temprature__struct.h: rosidl_generator_c/interface/srv/add_two_ints.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/interface/msg/detail/temprature__struct.h
+
+rosidl_generator_c/interface/msg/detail/temprature__type_support.h: rosidl_generator_c/interface/srv/add_two_ints.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/interface/msg/detail/temprature__type_support.h
+
 rosidl_generator_c/interface/srv/detail/add_two_ints__functions.c: rosidl_generator_c/interface/srv/add_two_ints.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/interface/srv/detail/add_two_ints__functions.c
 
 rosidl_generator_c/interface/action/detail/countdown__functions.c: rosidl_generator_c/interface/srv/add_two_ints.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/interface/action/detail/countdown__functions.c
+
+rosidl_generator_c/interface/msg/detail/temprature__functions.c: rosidl_generator_c/interface/srv/add_two_ints.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/interface/msg/detail/temprature__functions.c
 
 CMakeFiles/interface__rosidl_generator_c.dir/rosidl_generator_c/interface/srv/detail/add_two_ints__functions.c.o: CMakeFiles/interface__rosidl_generator_c.dir/flags.make
 CMakeFiles/interface__rosidl_generator_c.dir/rosidl_generator_c/interface/srv/detail/add_two_ints__functions.c.o: rosidl_generator_c/interface/srv/detail/add_two_ints__functions.c
@@ -150,16 +166,32 @@ CMakeFiles/interface__rosidl_generator_c.dir/rosidl_generator_c/interface/action
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/interface__rosidl_generator_c.dir/rosidl_generator_c/interface/action/detail/countdown__functions.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/build/interface/rosidl_generator_c/interface/action/detail/countdown__functions.c -o CMakeFiles/interface__rosidl_generator_c.dir/rosidl_generator_c/interface/action/detail/countdown__functions.c.s
 
+CMakeFiles/interface__rosidl_generator_c.dir/rosidl_generator_c/interface/msg/detail/temprature__functions.c.o: CMakeFiles/interface__rosidl_generator_c.dir/flags.make
+CMakeFiles/interface__rosidl_generator_c.dir/rosidl_generator_c/interface/msg/detail/temprature__functions.c.o: rosidl_generator_c/interface/msg/detail/temprature__functions.c
+CMakeFiles/interface__rosidl_generator_c.dir/rosidl_generator_c/interface/msg/detail/temprature__functions.c.o: CMakeFiles/interface__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/build/interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/interface__rosidl_generator_c.dir/rosidl_generator_c/interface/msg/detail/temprature__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/interface__rosidl_generator_c.dir/rosidl_generator_c/interface/msg/detail/temprature__functions.c.o -MF CMakeFiles/interface__rosidl_generator_c.dir/rosidl_generator_c/interface/msg/detail/temprature__functions.c.o.d -o CMakeFiles/interface__rosidl_generator_c.dir/rosidl_generator_c/interface/msg/detail/temprature__functions.c.o -c /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/build/interface/rosidl_generator_c/interface/msg/detail/temprature__functions.c
+
+CMakeFiles/interface__rosidl_generator_c.dir/rosidl_generator_c/interface/msg/detail/temprature__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/interface__rosidl_generator_c.dir/rosidl_generator_c/interface/msg/detail/temprature__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/build/interface/rosidl_generator_c/interface/msg/detail/temprature__functions.c > CMakeFiles/interface__rosidl_generator_c.dir/rosidl_generator_c/interface/msg/detail/temprature__functions.c.i
+
+CMakeFiles/interface__rosidl_generator_c.dir/rosidl_generator_c/interface/msg/detail/temprature__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/interface__rosidl_generator_c.dir/rosidl_generator_c/interface/msg/detail/temprature__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/build/interface/rosidl_generator_c/interface/msg/detail/temprature__functions.c -o CMakeFiles/interface__rosidl_generator_c.dir/rosidl_generator_c/interface/msg/detail/temprature__functions.c.s
+
 # Object files for target interface__rosidl_generator_c
 interface__rosidl_generator_c_OBJECTS = \
 "CMakeFiles/interface__rosidl_generator_c.dir/rosidl_generator_c/interface/srv/detail/add_two_ints__functions.c.o" \
-"CMakeFiles/interface__rosidl_generator_c.dir/rosidl_generator_c/interface/action/detail/countdown__functions.c.o"
+"CMakeFiles/interface__rosidl_generator_c.dir/rosidl_generator_c/interface/action/detail/countdown__functions.c.o" \
+"CMakeFiles/interface__rosidl_generator_c.dir/rosidl_generator_c/interface/msg/detail/temprature__functions.c.o"
 
 # External object files for target interface__rosidl_generator_c
 interface__rosidl_generator_c_EXTERNAL_OBJECTS =
 
 libinterface__rosidl_generator_c.so: CMakeFiles/interface__rosidl_generator_c.dir/rosidl_generator_c/interface/srv/detail/add_two_ints__functions.c.o
 libinterface__rosidl_generator_c.so: CMakeFiles/interface__rosidl_generator_c.dir/rosidl_generator_c/interface/action/detail/countdown__functions.c.o
+libinterface__rosidl_generator_c.so: CMakeFiles/interface__rosidl_generator_c.dir/rosidl_generator_c/interface/msg/detail/temprature__functions.c.o
 libinterface__rosidl_generator_c.so: CMakeFiles/interface__rosidl_generator_c.dir/build.make
 libinterface__rosidl_generator_c.so: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/lib/libcustome_messge__rosidl_generator_c.so
 libinterface__rosidl_generator_c.so: /opt/ros/humble/lib/libaction_msgs__rosidl_generator_c.so
@@ -168,7 +200,7 @@ libinterface__rosidl_generator_c.so: /opt/ros/humble/lib/libunique_identifier_ms
 libinterface__rosidl_generator_c.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libinterface__rosidl_generator_c.so: /opt/ros/humble/lib/librcutils.so
 libinterface__rosidl_generator_c.so: CMakeFiles/interface__rosidl_generator_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/build/interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C shared library libinterface__rosidl_generator_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/build/interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C shared library libinterface__rosidl_generator_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/interface__rosidl_generator_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -184,6 +216,11 @@ CMakeFiles/interface__rosidl_generator_c.dir/depend: rosidl_generator_c/interfac
 CMakeFiles/interface__rosidl_generator_c.dir/depend: rosidl_generator_c/interface/action/detail/countdown__functions.h
 CMakeFiles/interface__rosidl_generator_c.dir/depend: rosidl_generator_c/interface/action/detail/countdown__struct.h
 CMakeFiles/interface__rosidl_generator_c.dir/depend: rosidl_generator_c/interface/action/detail/countdown__type_support.h
+CMakeFiles/interface__rosidl_generator_c.dir/depend: rosidl_generator_c/interface/msg/detail/temprature__functions.c
+CMakeFiles/interface__rosidl_generator_c.dir/depend: rosidl_generator_c/interface/msg/detail/temprature__functions.h
+CMakeFiles/interface__rosidl_generator_c.dir/depend: rosidl_generator_c/interface/msg/detail/temprature__struct.h
+CMakeFiles/interface__rosidl_generator_c.dir/depend: rosidl_generator_c/interface/msg/detail/temprature__type_support.h
+CMakeFiles/interface__rosidl_generator_c.dir/depend: rosidl_generator_c/interface/msg/temprature.h
 CMakeFiles/interface__rosidl_generator_c.dir/depend: rosidl_generator_c/interface/srv/add_two_ints.h
 CMakeFiles/interface__rosidl_generator_c.dir/depend: rosidl_generator_c/interface/srv/detail/add_two_ints__functions.c
 CMakeFiles/interface__rosidl_generator_c.dir/depend: rosidl_generator_c/interface/srv/detail/add_two_ints__functions.h

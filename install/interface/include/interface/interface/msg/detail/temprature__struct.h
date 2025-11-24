@@ -1,0 +1,50 @@
+// generated from rosidl_generator_c/resource/idl__struct.h.em
+// with input from interface:msg/Temprature.idl
+// generated code does not contain a copyright notice
+
+#ifndef INTERFACE__MSG__DETAIL__TEMPRATURE__STRUCT_H_
+#define INTERFACE__MSG__DETAIL__TEMPRATURE__STRUCT_H_
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+
+
+// Constants defined in the message
+
+// Include directives for member types
+// Member 'sensor_name'
+// Member 'unit'
+#include "rosidl_runtime_c/string.h"
+
+/// Struct defined in msg/Temprature in the package interface.
+/**
+  * temprature msg
+ */
+typedef struct interface__msg__Temprature
+{
+  rosidl_runtime_c__String sensor_name;
+  double temprature_value;
+  rosidl_runtime_c__String unit;
+} interface__msg__Temprature;
+
+// Struct for a sequence of interface__msg__Temprature.
+typedef struct interface__msg__Temprature__Sequence
+{
+  interface__msg__Temprature * data;
+  /// The number of valid items in data
+  size_t size;
+  /// The number of allocated items in data
+  size_t capacity;
+} interface__msg__Temprature__Sequence;
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif  // INTERFACE__MSG__DETAIL__TEMPRATURE__STRUCT_H_

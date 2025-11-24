@@ -71,10 +71,13 @@ interface__py/CMakeFiles/interface__py: rosidl_generator_py/interface/_interface
 interface__py/CMakeFiles/interface__py: rosidl_generator_py/interface/_interface_s.ep.rosidl_typesupport_c.c
 interface__py/CMakeFiles/interface__py: rosidl_generator_py/interface/srv/_add_two_ints.py
 interface__py/CMakeFiles/interface__py: rosidl_generator_py/interface/action/_countdown.py
+interface__py/CMakeFiles/interface__py: rosidl_generator_py/interface/msg/_temprature.py
 interface__py/CMakeFiles/interface__py: rosidl_generator_py/interface/srv/__init__.py
 interface__py/CMakeFiles/interface__py: rosidl_generator_py/interface/action/__init__.py
+interface__py/CMakeFiles/interface__py: rosidl_generator_py/interface/msg/__init__.py
 interface__py/CMakeFiles/interface__py: rosidl_generator_py/interface/srv/_add_two_ints_s.c
 interface__py/CMakeFiles/interface__py: rosidl_generator_py/interface/action/_countdown_s.c
+interface__py/CMakeFiles/interface__py: rosidl_generator_py/interface/msg/_temprature_s.c
 
 rosidl_generator_py/interface/_interface_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/lib/rosidl_generator_py/rosidl_generator_py
 rosidl_generator_py/interface/_interface_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_py/__init__.py
@@ -91,6 +94,7 @@ rosidl_generator_py/interface/_interface_s.ep.rosidl_typesupport_fastrtps_c.c: /
 rosidl_generator_py/interface/_interface_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_srv.py.em
 rosidl_generator_py/interface/_interface_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/interface/srv/AddTwoInts.idl
 rosidl_generator_py/interface/_interface_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/interface/action/Countdown.idl
+rosidl_generator_py/interface/_interface_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/interface/msg/Temprature.idl
 rosidl_generator_py/interface/_interface_s.ep.rosidl_typesupport_fastrtps_c.c: /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/share/custome_messge/msg/Num.idl
 rosidl_generator_py/interface/_interface_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/action_msgs/msg/GoalInfo.idl
 rosidl_generator_py/interface/_interface_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/action_msgs/msg/GoalStatus.idl
@@ -114,17 +118,26 @@ rosidl_generator_py/interface/srv/_add_two_ints.py: rosidl_generator_py/interfac
 rosidl_generator_py/interface/action/_countdown.py: rosidl_generator_py/interface/_interface_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/interface/action/_countdown.py
 
+rosidl_generator_py/interface/msg/_temprature.py: rosidl_generator_py/interface/_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/interface/msg/_temprature.py
+
 rosidl_generator_py/interface/srv/__init__.py: rosidl_generator_py/interface/_interface_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/interface/srv/__init__.py
 
 rosidl_generator_py/interface/action/__init__.py: rosidl_generator_py/interface/_interface_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/interface/action/__init__.py
 
+rosidl_generator_py/interface/msg/__init__.py: rosidl_generator_py/interface/_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/interface/msg/__init__.py
+
 rosidl_generator_py/interface/srv/_add_two_ints_s.c: rosidl_generator_py/interface/_interface_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/interface/srv/_add_two_ints_s.c
 
 rosidl_generator_py/interface/action/_countdown_s.c: rosidl_generator_py/interface/_interface_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/interface/action/_countdown_s.c
+
+rosidl_generator_py/interface/msg/_temprature_s.c: rosidl_generator_py/interface/_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/interface/msg/_temprature_s.c
 
 interface__py: interface__py/CMakeFiles/interface__py
 interface__py: rosidl_generator_py/interface/_interface_s.ep.rosidl_typesupport_c.c
@@ -133,6 +146,9 @@ interface__py: rosidl_generator_py/interface/_interface_s.ep.rosidl_typesupport_
 interface__py: rosidl_generator_py/interface/action/__init__.py
 interface__py: rosidl_generator_py/interface/action/_countdown.py
 interface__py: rosidl_generator_py/interface/action/_countdown_s.c
+interface__py: rosidl_generator_py/interface/msg/__init__.py
+interface__py: rosidl_generator_py/interface/msg/_temprature.py
+interface__py: rosidl_generator_py/interface/msg/_temprature_s.c
 interface__py: rosidl_generator_py/interface/srv/__init__.py
 interface__py: rosidl_generator_py/interface/srv/_add_two_ints.py
 interface__py: rosidl_generator_py/interface/srv/_add_two_ints_s.c

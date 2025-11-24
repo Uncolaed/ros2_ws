@@ -364,6 +364,10 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interface/msg" TYPE FILE FILES "/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/build/interface/rosidl_adapter/interface/msg/Temprature.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interface/srv" TYPE FILE FILES "/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/src/interface/srv/AddTwoInts.srv")
 endif()
 
@@ -377,6 +381,10 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interface/action" TYPE FILE FILES "/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/src/interface/action/Countdown.action")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interface/msg" TYPE FILE FILES "/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/src/interface/msg/Temprature.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

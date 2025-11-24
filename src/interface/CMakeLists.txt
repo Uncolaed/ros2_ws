@@ -7,8 +7,6 @@ endif()
 
 # find dependencies
 find_package(ament_cmake REQUIRED)
-# uncomment the following section in order to fill in
-# further dependencies manually.
 
 #this line is needed to use the custom message from custome_messge package
 find_package(custome_messge REQUIRED)
@@ -19,6 +17,7 @@ find_package(rosidl_default_generators REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/AddTwoInts.srv"
   "action/Countdown.action"
+  "msg/Temprature.msg"
   DEPENDENCIES custome_messge
 ) 
 

@@ -1,0 +1,10 @@
+/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/build/temprature_interface/CMakeFiles/uninstall.dir
+/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/build/temprature_interface/CMakeFiles/temprature_interface_uninstall.dir
+/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/build/temprature_interface/CMakeFiles/temprature_publisher.dir
+/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/build/temprature_interface/CMakeFiles/test.dir
+/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/build/temprature_interface/CMakeFiles/edit_cache.dir
+/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/build/temprature_interface/CMakeFiles/rebuild_cache.dir
+/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/build/temprature_interface/CMakeFiles/list_install_components.dir
+/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/build/temprature_interface/CMakeFiles/install.dir
+/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/build/temprature_interface/CMakeFiles/install/local.dir
+/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/build/temprature_interface/CMakeFiles/install/strip.dir
