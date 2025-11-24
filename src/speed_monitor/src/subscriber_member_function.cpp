@@ -40,11 +40,11 @@ private:
     if (msg.data > speed_limit) 
     {
       //log a warning if speed exceeds the limit
-      RCLCPP_WARN(this->get_logger(), "Speed Limit Exceeded! Current Speed: '%f'", msg.data);
+      RCLCPP_WARN(this->get_logger(), "Speed Limit Exceeded! Current Speed: '%1f'm/s (speed limit: '%1f')", msg.data, speed_limit);
     } else 
     {
       //log info normally if speed is within limit
-      RCLCPP_INFO(this->get_logger(), "Speed is within limit. Current Speed: '%f'", msg.data);
+      RCLCPP_INFO(this->get_logger(), "Speed is within limit. Current Speed: '%1f'm/s (speed limit: '%1f')", msg.data, speed_limit);
     }
   }
   rclcpp::Subscription<std_msgs::msg::Float64>::SharedPtr subscription_;

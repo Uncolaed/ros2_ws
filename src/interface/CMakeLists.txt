@@ -18,6 +18,7 @@ find_package(rosidl_default_generators REQUIRED)
 # Generate services
 rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/AddTwoInts.srv"
+  "action/Countdown.action"
   DEPENDENCIES custome_messge
 ) 
 

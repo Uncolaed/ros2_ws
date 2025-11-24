@@ -30,9 +30,6 @@ CMakeFiles/interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/interface/sr
   /usr/include/x86_64-linux-gnu/bits/wchar.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
-  /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/include/custome_messge/custome_messge/msg/detail/num__struct.h \
-  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
-  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
   rosidl_generator_c/interface/srv/detail/add_two_ints__type_support.h \
   rosidl_generator_c/interface/msg/rosidl_generator_c__visibility_control.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
@@ -45,17 +42,11 @@ CMakeFiles/interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/interface/sr
 
 /opt/ros/humble/include/rosidl_typesupport_c/rosidl_typesupport_c/type_support_map.h:
 
+/opt/ros/humble/include/rosidl_typesupport_c/rosidl_typesupport_c/identifier.h:
+
 /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h:
 
 rosidl_generator_c/interface/msg/rosidl_generator_c__visibility_control.h:
-
-/opt/ros/humble/include/rosidl_typesupport_c/rosidl_typesupport_c/identifier.h:
-
-/opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h:
-
-/opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h:
-
-/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/custome_messge/include/custome_messge/custome_messge/msg/detail/num__struct.h:
 
 /usr/include/features.h:
 

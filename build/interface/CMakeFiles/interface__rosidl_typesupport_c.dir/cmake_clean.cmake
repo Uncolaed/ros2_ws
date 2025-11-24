@@ -1,8 +1,11 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/interface/action/countdown__type_support.cpp.o"
+  "CMakeFiles/interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/interface/action/countdown__type_support.cpp.o.d"
   "CMakeFiles/interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/interface/srv/add_two_ints__type_support.cpp.o"
   "CMakeFiles/interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/interface/srv/add_two_ints__type_support.cpp.o.d"
   "libinterface__rosidl_typesupport_c.pdb"
   "libinterface__rosidl_typesupport_c.so"
+  "rosidl_typesupport_c/interface/action/countdown__type_support.cpp"
   "rosidl_typesupport_c/interface/srv/add_two_ints__type_support.cpp"
 )
 

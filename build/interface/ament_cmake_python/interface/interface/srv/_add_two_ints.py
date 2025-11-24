@@ -42,10 +42,6 @@ class Metaclass_AddTwoInts_Request(type):
             cls._TYPE_SUPPORT = module.type_support_msg__srv__add_two_ints__request
             cls._DESTROY_ROS_MESSAGE = module.destroy_ros_message_msg__srv__add_two_ints__request
 
-            from custome_messge.msg import Num
-            if Num.__class__._TYPE_SUPPORT is None:
-                Num.__class__.__import_type_support__()
-
     @classmethod
     def __prepare__(cls, name, bases, **kwargs):
         # list constant names here so that they appear in the help text of
@@ -61,19 +57,16 @@ class AddTwoInts_Request(metaclass=Metaclass_AddTwoInts_Request):
     __slots__ = [
         '_a',
         '_b',
-        '_n',
     ]
 
     _fields_and_field_types = {
         'a': 'int64',
         'b': 'int64',
-        'n': 'custome_messge/Num',
     }
 
     SLOT_TYPES = (
         rosidl_parser.definition.BasicType('int64'),  # noqa: E501
         rosidl_parser.definition.BasicType('int64'),  # noqa: E501
-        rosidl_parser.definition.NamespacedType(['custome_messge', 'msg'], 'Num'),  # noqa: E501
     )
 
     def __init__(self, **kwargs):
@@ -82,8 +75,6 @@ class AddTwoInts_Request(metaclass=Metaclass_AddTwoInts_Request):
             ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
         self.a = kwargs.get('a', int())
         self.b = kwargs.get('b', int())
-        from custome_messge.msg import Num
-        self.n = kwargs.get('n', Num())
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -117,8 +108,6 @@ class AddTwoInts_Request(metaclass=Metaclass_AddTwoInts_Request):
         if self.a != other.a:
             return False
         if self.b != other.b:
-            return False
-        if self.n != other.n:
             return False
         return True
 
@@ -156,20 +145,6 @@ class AddTwoInts_Request(metaclass=Metaclass_AddTwoInts_Request):
             assert value >= -9223372036854775808 and value < 9223372036854775808, \
                 "The 'b' field must be an integer in [-9223372036854775808, 9223372036854775807]"
         self._b = value
-
-    @builtins.property
-    def n(self):
-        """Message field 'n'."""
-        return self._n
-
-    @n.setter
-    def n(self, value):
-        if __debug__:
-            from custome_messge.msg import Num
-            assert \
-                isinstance(value, Num), \
-                "The 'n' field must be a sub message of type 'Num'"
-        self._n = value
 
 
 # Import statements for member types

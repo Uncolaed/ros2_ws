@@ -1,0 +1,11 @@
+/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/build/action_class_work/CMakeFiles/uninstall.dir
+/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/build/action_class_work/CMakeFiles/action_class_work_uninstall.dir
+/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/build/action_class_work/CMakeFiles/countdown_server.dir
+/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/build/action_class_work/CMakeFiles/countdown_client.dir
+/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/build/action_class_work/CMakeFiles/test.dir
+/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/build/action_class_work/CMakeFiles/edit_cache.dir
+/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/build/action_class_work/CMakeFiles/rebuild_cache.dir
+/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/build/action_class_work/CMakeFiles/list_install_components.dir
+/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/build/action_class_work/CMakeFiles/install.dir
+/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/build/action_class_work/CMakeFiles/install/local.dir
+/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/build/action_class_work/CMakeFiles/install/strip.dir

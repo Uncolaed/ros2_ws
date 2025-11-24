@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-7b43a00633fba19612ce.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "action_class_work",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "action_class_work_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-action_class_work_uninstall-ee1b1d1b97ddfe08cc09.json",
+					"name" : "action_class_work_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "countdown_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-countdown_client-d200d5b2a8d8c3ab5c4e.json",
+					"name" : "countdown_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "countdown_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-countdown_server-d1c67209253c23ffe0aa.json",
+					"name" : "countdown_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-7d6b57bf2c58987ea0ea.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/build/action_class_work",
+		"source" : "/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/src/action_class_work"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

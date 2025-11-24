@@ -16,10 +16,6 @@
 #include "interface/srv/detail/add_two_ints__struct.h"
 #include "interface/srv/detail/add_two_ints__functions.h"
 
-ROSIDL_GENERATOR_C_IMPORT
-bool custome_messge__msg__num__convert_from_py(PyObject * _pymsg, void * _ros_message);
-ROSIDL_GENERATOR_C_IMPORT
-PyObject * custome_messge__msg__num__convert_to_py(void * raw_ros_message);
 
 ROSIDL_GENERATOR_C_EXPORT
 bool interface__srv__add_two_ints__request__convert_from_py(PyObject * _pymsg, void * _ros_message)
@@ -72,17 +68,6 @@ bool interface__srv__add_two_ints__request__convert_from_py(PyObject * _pymsg, v
     ros_message->b = PyLong_AsLongLong(field);
     Py_DECREF(field);
   }
-  {  // n
-    PyObject * field = PyObject_GetAttrString(_pymsg, "n");
-    if (!field) {
-      return false;
-    }
-    if (!custome_messge__msg__num__convert_from_py(field, &ros_message->n)) {
-      Py_DECREF(field);
-      return false;
-    }
-    Py_DECREF(field);
-  }
 
   return true;
 }
@@ -121,20 +106,6 @@ PyObject * interface__srv__add_two_ints__request__convert_to_py(void * raw_ros_m
     field = PyLong_FromLongLong(ros_message->b);
     {
       int rc = PyObject_SetAttrString(_pymessage, "b", field);
-      Py_DECREF(field);
-      if (rc) {
-        return NULL;
-      }
-    }
-  }
-  {  // n
-    PyObject * field = NULL;
-    field = custome_messge__msg__num__convert_to_py(&ros_message->n);
-    if (!field) {
-      return NULL;
-    }
-    {
-      int rc = PyObject_SetAttrString(_pymessage, "n", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;

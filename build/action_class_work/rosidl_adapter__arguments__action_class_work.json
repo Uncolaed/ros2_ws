@@ -1,0 +1,7 @@
+{
+  "package_name": "action_class_work",
+  "non_idl_tuples": [
+    "/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/src/action_class_work:srv/AddTwoInts.srv",
+    "/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/src/action_class_work:action/Countdown.action"
+  ]
+}

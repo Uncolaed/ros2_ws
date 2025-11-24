@@ -54,7 +54,7 @@ endif()
 add_library(interface::interface__rosidl_typesupport_c SHARED IMPORTED)
 
 set_target_properties(interface::interface__rosidl_typesupport_c PROPERTIES
-  INTERFACE_LINK_LIBRARIES "interface::interface__rosidl_generator_c;custome_messge::custome_messge__rosidl_typesupport_c"
+  INTERFACE_LINK_LIBRARIES "interface::interface__rosidl_generator_c;custome_messge::custome_messge__rosidl_typesupport_c;action_msgs::action_msgs__rosidl_typesupport_c;builtin_interfaces::builtin_interfaces__rosidl_typesupport_c;unique_identifier_msgs::unique_identifier_msgs__rosidl_typesupport_c"
 )
 
 if(CMAKE_VERSION VERSION_LESS 2.8.12)

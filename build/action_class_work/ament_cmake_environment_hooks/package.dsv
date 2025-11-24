@@ -1,0 +1,4 @@
+source;share/action_class_work/local_setup.bash
+source;share/action_class_work/local_setup.dsv
+source;share/action_class_work/local_setup.sh
+source;share/action_class_work/local_setup.zsh
