@@ -19,5 +19,10 @@ install(
   DESTINATION share/${PROJECT_NAME}/launch
 )
 
+install(
+  DIRECTORY world/
+  DESTINATION share/${PROJECT_NAME}/world
+) 
+
 
 ament_package()

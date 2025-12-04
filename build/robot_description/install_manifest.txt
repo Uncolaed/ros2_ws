@@ -1,5 +1,10 @@
+/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/robot_description/share/robot_description/urdf/mobile_robot.sdf
 /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/robot_description/share/robot_description/urdf/robot.urdf
+/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/robot_description/share/robot_description/urdf/mobile_robot.urdf
+/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/robot_description/share/robot_description/launch/mobile_robot_launch.py
+/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/robot_description/share/robot_description/launch/gazebo_ign.launch.py
 /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/robot_description/share/robot_description/launch/display.launch.py
+/home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/robot_description/share/robot_description/world/my_world.sdf
 /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description
 /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/robot_description/share/ament_index/resource_index/parent_prefix_path/robot_description
 /home/mazenbelal/Desktop/ROS2_Projects/ros2_ws/install/robot_description/share/robot_description/environment/ament_prefix_path.sh
