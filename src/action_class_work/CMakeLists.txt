@@ -6,7 +6,6 @@ find_package(ament_cmake REQUIRED)
 find_package(interface REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(rclcpp_action REQUIRED)
-find_package(rosidl_default_generators REQUIRED)
 
 
 add_executable(countdown_server src/countdown_server.cpp)
