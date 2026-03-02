@@ -1,2 +1,14 @@
-#ignore log folder 
-log/
+# Ignore everything at the repository root
+/*
+
+# Keep this .gitignore tracked
+!.gitignore
+
+# Keep the `src` directory and all its contents
+!/src/
+!/src/**
+
+# (Optional) keep local install/setup files if you want them tracked
+#!/install/
+
+

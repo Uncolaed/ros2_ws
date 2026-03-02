@@ -1,8 +1,0 @@
-# Goal
-int32 start
----
-# Result
-int32 final
----
-# Feedback
-int32 current

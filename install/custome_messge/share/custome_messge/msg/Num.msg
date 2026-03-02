@@ -1,4 +1,0 @@
-#num messge
-string name
-int64 num
-string mark
