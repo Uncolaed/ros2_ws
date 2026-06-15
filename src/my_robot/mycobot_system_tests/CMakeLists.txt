@@ -11,6 +11,17 @@ find_package(ament_cmake REQUIRED)
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
 
+#copy necessary files to designated locatiosn in the project
+install(
+  DIRECTORY scripts src
+  DESTINATION share/${PROJECT_NAME}
+)
+#install python executables
+install (PROGRAMS
+  scripts/arm_gripper_loop_controller.py
+  DESTINATION lib/${PROJECT_NAME}
+)
+
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
   # the following line skips the linter which checks for copyrights

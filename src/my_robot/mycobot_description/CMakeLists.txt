@@ -12,7 +12,7 @@ find_package(ament_cmake REQUIRED)
 # find_package(<dependency> REQUIRED)
 
 install(
-  DIRECTORY launch urdf meshes
+  DIRECTORY launch urdf meshes rviz
   DESTINATION share/${PROJECT_NAME}
 )
 
@@ -27,5 +27,3 @@ if(BUILD_TESTING)
   set(ament_cmake_cpplint_FOUND TRUE)
   ament_lint_auto_find_test_dependencies()
 endif()
-
-ament_package()
